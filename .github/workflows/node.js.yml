@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: uyarntu-latest
 
     strategy:
       matrix:
@@ -23,11 +23,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: "bun"
+          cache: "yarn"
 
-      - run: bun install --frozen-lockfile
+      - run: yarn install --frozen-lockfile
 
-      - run: bun run lint
-      - run: bun run check
-      - run: bun run format
-      - run: bun run run build
+      - run: yarn run lint
+      - run: yarn run check
+      - run: yarn run format
+      - run: yarn run run build
