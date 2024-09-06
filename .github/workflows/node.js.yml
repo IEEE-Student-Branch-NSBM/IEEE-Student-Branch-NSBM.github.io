@@ -19,15 +19,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: "yarn"
+      - uses: oven-sh/setup-bun@v2
 
-      - run: yarn install --frozen-lockfile
+      - run: bun install --frozen-lockfile
 
-      - run: yarn run lint
-      - run: yarn run check
-      - run: yarn run format
-      - run: yarn run run build
+      - run: bun run lint
+      - run: bun run check
+      - run: bun run format
+      - run: bun run run build
