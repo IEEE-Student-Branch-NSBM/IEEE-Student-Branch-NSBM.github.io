@@ -1,0 +1,33 @@
+name: Node.js CI
+
+on:
+  push:
+    branches:
+      - "release/production"
+  pull_request:
+    branches:
+      - "release/development"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [22.5.1]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "bun"
+
+      - run: bun install --frozen-lockfile
+
+      - run: bun run lint
+      - run: bun run check
+      - run: bun run format
+      - run: bun run run build
