@@ -13,6 +13,9 @@ const config: Config = {
         primaryLight: "#00629b",
         primaryDark: "#00273e",
       },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
