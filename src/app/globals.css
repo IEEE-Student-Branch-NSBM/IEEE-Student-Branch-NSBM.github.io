@@ -12,6 +12,18 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+  #card{
+    background-color: #000000;
+  }
+  #cardTitle{
+    color: #ffffff;
+  }
+  #cardDes{
+    color: #b9b9b9;
+  }
+  #cardImg{
+    filter: invert(1);
+  }
 }
 
 body {
@@ -93,3 +105,4 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
