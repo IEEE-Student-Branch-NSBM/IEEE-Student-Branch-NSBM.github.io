@@ -56,7 +56,11 @@ const config: Config = {
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
   		}
-  	}
+  	},
+    colors: {
+      primaryLight: "#00629b",
+	  primaryDark: "#00273e"
+    },
   },
   plugins: [require("tailwindcss-animate")],
 };
