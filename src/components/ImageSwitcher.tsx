@@ -1,32 +1,32 @@
-'use client'
-import { useEffect, useState } from 'react';
-import Image from 'next/image';
+"use client";
+import Image from "next/image";
+import { useEffect, useState } from "react";
 
 const ImageSwitcher = () => {
-    const [theme, setTheme] = useState('light'); // Default to light
+  const [theme, setTheme] = useState("light"); // Default to light
 
   // Function to update theme based on system preference
-    const updateTheme = (e:MediaQueryListEvent) => {
-        setTheme(e.matches ? 'dark' : 'light');
-    };
+  const updateTheme = (e: MediaQueryListEvent) => {
+    setTheme(e.matches ? "dark" : "light");
+  };
 
   useEffect(() => {
     // Check the initial system theme
-    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-    setTheme(mediaQuery.matches ? 'dark' : 'light');
+    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+    setTheme(mediaQuery.matches ? "dark" : "light");
 
     // Listen for changes to the system theme
-    mediaQuery.addEventListener('change', updateTheme);
+    mediaQuery.addEventListener("change", updateTheme);
 
     // Cleanup the event listener on component unmount
     return () => {
-      mediaQuery.removeEventListener('change', updateTheme);
+      mediaQuery.removeEventListener("change", updateTheme);
     };
   }, []);
 
   return (
     <div>
-      {theme === 'light' ? (
+      {theme === "light" ? (
         <Image
           src="Images\IEEE NSBM CS LOGO REBUILD - COLOR 1.svg"
           alt="Light Theme Image"
