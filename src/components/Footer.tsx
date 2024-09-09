@@ -52,7 +52,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-1/4 footer-col border-l border-r">
+        <div className="w-full lg:w-1/4 footer-col lg:border-l lg:border-r">
           <div className="footer-col-content">
             <h3 className="footer-col-title">Student Branch Chapters</h3>
             <div className="footer-col-navs-container">
