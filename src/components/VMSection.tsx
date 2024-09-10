@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/card";
 import React from "react";
 
-const VisionMissionSection =()=> {
+const VisionMissionSection = () => {
   return (
     <div className="xl:px-40 px-3">
       <div className="grid justify-items-center lg:grid-cols-3 grid-cols-3 mb-10 mt-10">
@@ -24,7 +24,10 @@ const VisionMissionSection =()=> {
         <ImageSwitcher />
       </div>
       <div className="grid justify-items-center xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 gap-4">
-        <Card className="shadow-lg sm:w-96 mt-5 bg-stone-100 border-none" id="card">
+        <Card
+          className="shadow-lg sm:w-96 mt-5 bg-stone-100 border-none"
+          id="card"
+        >
           <CardHeader>
             <CardTitle className="text-lg font-bold flex" id="cardTitle">
               <img
@@ -44,7 +47,10 @@ const VisionMissionSection =()=> {
           </CardHeader>
         </Card>
         <div className="sm:hidden xl:hidden"></div>
-        <Card className="shadow-lg sm:w-96 border-none mt-5 bg-stone-100" id="card">
+        <Card
+          className="shadow-lg sm:w-96 border-none mt-5 bg-stone-100"
+          id="card"
+        >
           <CardHeader>
             <CardTitle className="text-lg flex" id="cardTitle">
               <img
@@ -65,6 +71,5 @@ const VisionMissionSection =()=> {
       </div>
     </div>
   );
-}
-export default VisionMissionSection
-
+};
+export default VisionMissionSection;
