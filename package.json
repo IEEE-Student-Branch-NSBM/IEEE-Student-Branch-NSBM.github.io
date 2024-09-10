@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "check": "biome check ./src",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "format": "biome format ./src",
     "format:write": "biome format --write ./src",
     "prepare": "husky"
   },
