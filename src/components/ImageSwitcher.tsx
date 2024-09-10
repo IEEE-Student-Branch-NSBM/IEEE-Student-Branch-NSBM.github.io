@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
@@ -30,7 +30,7 @@ const ImageSwitcher = () => {
         <Image
           src="Images\IEEE NSBM CS LOGO REBUILD - COLOR 1.svg"
           alt="Light Theme Image"
-          className="w-40 sm:w-64 lg:w-80 mt-2"
+          className="w-20 sm:w-48 sm:mt-4 lg:w-80 xl:w-60s mt-2"
           width={100}
           height={100}
         />
@@ -38,7 +38,7 @@ const ImageSwitcher = () => {
         <Image
           src="Images\IEEE NSBM CS LOGO REBUILD - COLOR WITH WHITE TEXT 1.svg"
           alt="Dark Theme Image"
-          className="w-40 sm:w-64 lg:w-80 mt-2"
+          className="w-20 sm:w-48 sm:mt-4 lg:w-80 xl:w-60 mt-2"
           width={100}
           height={100}
         />
