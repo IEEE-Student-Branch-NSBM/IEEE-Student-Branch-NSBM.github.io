@@ -1,4 +1,4 @@
-import ieeeFooterLogo from "@/assets/ieeeFooterLogo.png";
+import ieeeFooterLogo from "@/assets/ieee-footer-logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
