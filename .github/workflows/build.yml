@@ -2,7 +2,7 @@ name: Build Next.js app
 
 on:
   # Runs on pushes targeting the default branch
-  pull_request:
+  pull_request_review:
     branches: [ release/* ]
 
   # Allows you to run this workflow manually from the Actions tab
