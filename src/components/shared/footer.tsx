@@ -1,3 +1,4 @@
+import ieeeFooterLogo from "@/assets/ieeeFooterLogo.png";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -9,18 +10,14 @@ import {
   BsYoutube,
 } from "react-icons/bs";
 import { MdEmail, MdOutlineLocationOn } from "react-icons/md";
+
 function Footer() {
   return (
     <footer className="w-full bg-primaryDark text-white text-center mt-auto font-poppins">
       <div className="w-full lg:flex">
         <div className="w-full lg:w-1/4 flex justify-center">
           <div className="bg-primaryLight w-[250px] py-7 rounded-b-3xl mb-8 flex flex-col gap-4">
-            <Image
-              src={require("../assets/ieeeFooterLogo.png")}
-              width={250}
-              height={123}
-              alt="logo"
-            />
+            <Image src={ieeeFooterLogo} width={250} height={123} alt="logo" />
             <div className="flex p-2 justify-center text-[20px] gap-2">
               <Link href="#" className="footer-social">
                 <BsFacebook />
@@ -40,6 +37,7 @@ function Footer() {
             </div>
           </div>
         </div>
+
         <div className="w-full lg:w-1/6 footer-col">
           <div className="footer-col-content">
             <h3 className="footer-col-title">Get Started</h3>
@@ -52,6 +50,7 @@ function Footer() {
             </div>
           </div>
         </div>
+
         <div className="w-full lg:w-1/4 footer-col lg:border-l lg:border-r">
           <div className="footer-col-content">
             <h3 className="footer-col-title">Student Branch Chapters</h3>
@@ -61,6 +60,7 @@ function Footer() {
             </div>
           </div>
         </div>
+
         <div className="w-full lg:w-1/3 footer-col">
           <div className="footer-col-content">
             <h3 className="footer-col-title">Contact Us</h3>
@@ -86,6 +86,7 @@ function Footer() {
           </div>
         </div>
       </div>
+
       <div className="md:flex justify-end">
         <div className="w-full lg:w-1/3 max-md:mb-2">
           © Copyright 2024 | All rights reserved
