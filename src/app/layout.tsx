@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+
 import Footer from "@/components/shared/footer";
+
+// move  to the page
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -30,6 +33,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen font-poppins`}
       >
         {children}
+
         <Footer />
       </body>
     </html>
