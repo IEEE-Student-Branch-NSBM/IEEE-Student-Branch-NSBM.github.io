@@ -41,14 +41,14 @@ const VisionMissionSection = () => {
             <CardTitle className="text-lg font-bold flex" id="cardTitle">
               <Image
                 src={mission}
-                className="w-6 dark:invert m-1"
+                className="w-6 dark:invert m-1 pb-1"
                 alt="missionLogo"
                 width={1000}
                 height={1000}
               />
               OUR <p className="text-cyan-600 ms-2">MISSION</p>
             </CardTitle>
-            <CardDescription className="text-sm text-slate-500" id="cardDes">
+            <CardDescription className="text-sm text-slate-700" id="cardDes">
               The Student Chapter of IEEE NSBM advises the community on ethics
               policy and concerns as well as fostering awareness on ethical
               issues and promoting ethical behavior amongst individuals and
@@ -72,7 +72,7 @@ const VisionMissionSection = () => {
               />
               OUR <p className="text-cyan-600 ms-2">VISION</p>
             </CardTitle>
-            <CardDescription className="text-sm text-slate-500" id="cardDes">
+            <CardDescription className="text-sm text-slate-700" id="cardDes">
               A world in which engineers and scientists are respected for their
               exemplary ethical behavior and the IEEE and its Ethics & Member
               Conduct Committee are recognized as a major drive in this regard.
