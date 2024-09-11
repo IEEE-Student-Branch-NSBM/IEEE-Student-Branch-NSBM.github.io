@@ -1,4 +1,4 @@
-import VisionMissionSection from "@/components/VMSection";
+import VisionMissionSection from "@/components/vm-section";
 import React from "react";
 
 export default function Home() {

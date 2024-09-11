@@ -1,4 +1,6 @@
 "use client";
+import ieeeCsColorWhite from "@/assets/Ieee-CS-Colored-White.png";
+import ieeeCsColorBlack from "@/assets/ieee-cs-colored-black.png";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
@@ -28,19 +30,19 @@ const ImageSwitcher = () => {
     <div>
       {theme === "light" ? (
         <Image
-          src="Images\IEEE NSBM CS LOGO REBUILD - COLOR 1.svg"
+          src={ieeeCsColorBlack}
           alt="Light Theme Image"
           className="w-20 sm:w-48 sm:mt-4 lg:w-80 xl:w-60s mt-2"
-          width={100}
-          height={100}
+          width={1500}
+          height={1500}
         />
       ) : (
         <Image
-          src="Images\IEEE NSBM CS LOGO REBUILD - COLOR WITH WHITE TEXT 1.svg"
+          src={ieeeCsColorWhite}
           alt="Dark Theme Image"
           className="w-20 sm:w-48 sm:mt-4 lg:w-80 xl:w-60 mt-2"
-          width={100}
-          height={100}
+          width={1500}
+          height={1500}
         />
       )}
     </div>
