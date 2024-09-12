@@ -1,3 +1,9 @@
+import BranchCounsellors from "@/components/index/branch-counsellors";
+
 export default function Home() {
-  return <div>Body</div>;
+  return (
+    <div>
+      <BranchCounsellors />
+    </div>
+  );
 }
