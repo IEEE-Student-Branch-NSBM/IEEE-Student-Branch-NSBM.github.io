@@ -80,11 +80,3 @@ jobs:
           ${{ steps.detect-package-manager.outputs.manager }} run check
           ${{ steps.detect-package-manager.outputs.manager }} run format
           ${{ steps.detect-package-manager.outputs.manager }} run build
-
-      - name: Build with Next.js
-        run: ${{ steps.detect-package-manager.outputs.runner }} next build
-
-      - name: Upload artifact
-        uses: actions/upload-artifact@v2
-        with:
-          path: ./out
