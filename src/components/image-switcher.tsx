@@ -1,8 +1,10 @@
 "use client";
-import ieeeCsColorWhite from "@/assets/Ieee-CS-Colored-White.png";
-import ieeeCsColorBlack from "@/assets/ieee-cs-colored-black.png";
+
 import Image from "next/image";
 import { useEffect, useState } from "react";
+
+import ieeeCsColorBlack from "@/assets/ieee-cs-colored-black.png";
+import ieeeCsColorWhite from "@/assets/ieee-cs-colored-white.png";
 
 const ImageSwitcher = () => {
   const [darkMode, setDarkMode] = useState(false);

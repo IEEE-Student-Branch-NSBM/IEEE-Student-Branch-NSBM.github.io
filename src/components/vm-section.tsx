@@ -1,7 +1,6 @@
-import ieeeSbLogo from "@/assets/Ieee-SB-New-Colored.png";
-import mission from "@/assets/mission.png";
-import vision from "@/assets/vision.png";
-import wieLogo from "@/assets/wie-colored.png";
+import Image from "next/image";
+import React from "react";
+
 import ImageSwitcher from "@/components/image-switcher";
 import {
   Card,
@@ -9,8 +8,11 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import Image from "next/image";
-import React from "react";
+
+import ieeeSbLogo from "@/assets/ieee-sb-new-colored.png";
+import mission from "@/assets/mission.png";
+import vision from "@/assets/vision.png";
+import wieLogo from "@/assets/wie-colored.png";
 
 const VisionMissionSection = () => {
   return (
