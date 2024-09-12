@@ -63,16 +63,19 @@ const events: Event[] = [
 
 const eventcard: React.FC = () => {
   return (
-    <div className="w-full max-w-5xl mx-auto my-4">
+    <div className="w-full max-w-5xl mx-auto my-4 sm:px-6 lg:px-8">
       <h1 className="text-3xl font-bold text-center mb-6 pt-4">
         LATEST EVENTS
       </h1>
       <Carousel className="w-full">
         <CarouselContent>
           {events.map((event) => (
-            <CarouselItem key={event.id} className="md:basis-1/2 lg:basis-1/3">
+            <CarouselItem
+              key={event.id}
+              className="md:basis-1/2 sm:basis-1/2 lg:basis-1/3"
+            >
               <div className="p-1">
-                <Card className="h-[30rem]">
+                <Card className="h-[30rem] mx-3">
                   <CardContent className="flex flex-col px-0 h-full justify-between">
                     <Image
                       width={350}
@@ -97,8 +100,10 @@ const eventcard: React.FC = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        <div className="hidden md:block">
+          <CarouselPrevious />
+          <CarouselNext />
+        </div>
       </Carousel>
     </div>
   );
