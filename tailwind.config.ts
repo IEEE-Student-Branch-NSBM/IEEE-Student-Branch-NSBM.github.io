@@ -12,6 +12,8 @@ const config: Config = {
       colors: {
         primaryLight: "#00629b",
         primaryDark: "#00273e",
+        secondaryLight: "#f3fbff",
+        buttonDark: "#00609c",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
