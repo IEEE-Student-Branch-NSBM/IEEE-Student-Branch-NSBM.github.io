@@ -40,9 +40,9 @@ const contactus = () => {
   }
 
   return (
-    <div className="container mx-auto p-4">
-      <h1 className="text-4xl font-bold mb-6 mx-8">Contact Us</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mx-8 mb-5">
+    <div className="container mx-auto p-4 lg:p-4">
+      <h1 className="text-4xl font-bold mb-6 md:mx-8 lg:mx-8">Contact Us</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-5 md:mx-8 lg:mx-8  ">
         <Card className="w-full">
           <CardHeader>
             <CardTitle className="text-2xl font-bold">
