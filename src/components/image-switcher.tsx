@@ -1,5 +1,4 @@
-"use client";
-
+/*'use client';
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
@@ -34,4 +33,4 @@ const ImageSwitcher = () => {
     </div>
   );
 };
-export default ImageSwitcher;
+export default ImageSwitcher;**/
