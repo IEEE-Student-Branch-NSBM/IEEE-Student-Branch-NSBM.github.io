@@ -12,14 +12,21 @@ function fellowship() {
             Our fellowship
           </h1>
 
-          <div className="relative ">
-            <iframe
-              src="https://www.youtube.com/embed/ihz8vom1XPg?si=6paJ6wkTi9SFNLgQ&controls=0&rel=0"
-              className="lg:w-[750px] lg:h-[420px] w-[420px] h-[240px] "
-            />
+          <div className="w-full flex justify-center">
+            <div
+              className="relative"
+              style={{ width: "80%", paddingBottom: "45%" }}
+            >
+              <iframe
+                src="https://www.youtube.com/embed/ihz8vom1XPg?si=6paJ6wkTi9SFNLgQ&controls=0&rel=0"
+                className="absolute top-0 left-0 w-full h-full"
+                frameBorder="0"
+                allow="autoplay; encrypted-media"
+                allowFullScreen
+              />
+            </div>
           </div>
         </div>
-
         <div className="flex md:flex-row flex-col justify-center gap-10  ">
           <Image width={600} height={123} src={JoinUs} alt="ieee-footer-logo" />
 
