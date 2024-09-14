@@ -42,11 +42,11 @@ const counsellors: Counsellor[] = [
 
 const BranchCounsellors: React.FC = () => {
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 max-w-[1170px]">
       <h1 className="text-4xl lg:text-6xl font-bold text-center">
         STUDENT BRANCH COUNSELLORS
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 mt-12 xl:px-40 lg:px-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 mt-12">
         {counsellors.slice(0, 3).map((counsellor) => (
           <div
             key={counsellor.name}
@@ -67,7 +67,7 @@ const BranchCounsellors: React.FC = () => {
           </div>
         ))}
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 mt-8 xl:px-80 lg:px-40">
+      <div className="grid grid-cols-1 md:grid-cols-2 mt-8">
         {counsellors.slice(3).map((counsellor) => (
           <div
             key={counsellor.name}
