@@ -19,14 +19,14 @@ const VisionMissionSection = () => {
       <div className="grid justify-items-center lg:grid-cols-3 sm:grid-cols-3 grid-cols-1 mb-10 mt-10 ">
         <Image
           src={ieeeSbLogo}
-          className="w-60 mb-5 sm:w-80 sm:pt-8 lg:pt-12 sm:ms-8 pt-4"
+          className="w-60 mb-5 sm:w-80 sm:pt-10 sm:ms-24 pt-4"
           alt="SBLogo"
           width={2000}
           height={2000}
         />
         <Image
           src={wieLogo}
-          className="w-24 mb-5 sm:w-28 lg:ms-6 ms-1 sm:me-1"
+          className="w-24 mb-5 sm:pt-2 sm:w-28 ms-1 sm:me-3"
           alt="WIELogo"
           width={2000}
           height={2000}
@@ -35,14 +35,14 @@ const VisionMissionSection = () => {
           <Image
             src={ieeeCsColorBlack}
             alt="IEEE CS Logo"
-            className="w-44  sm:mt-4 sm:w-56 xl:w-60 mt-2 sm:me-6"
+            className="w-44  sm:mt-4 sm:w-56 xl:w-60 mt-2 sm:me-32"
             width={1500}
             height={1500}
           />
         </div>
       </div>
-      <div className="grid justify-items-center lg:me-4 sm:grid-cols-2 gap-4">
-        <Card className="shadow-lg sm:w-96 mt-5 dark:bg-black bg-stone-100 border-none">
+      <div className="grid justify-items-center lg:me-4 sm:grid-cols-2 grid-cols-1 ">
+        <Card className="shadow-lg sm:w-96 mt-5 sm:ms-20 bg-stone-100 border-none">
           <CardHeader>
             <CardTitle className="text-lg font-bold flex">
               <Image
@@ -64,7 +64,7 @@ const VisionMissionSection = () => {
         </Card>
         <div className=" sm:hidden lg:hidden"></div>
         <Card
-          className="shadow-lg sm:w-96 ms-2 dark:bg-black border-none mt-5 bg-stone-100"
+          className="shadow-lg sm:w-96 sm:me-16 border-none mt-5 bg-stone-100"
           id="card"
         >
           <CardHeader>
