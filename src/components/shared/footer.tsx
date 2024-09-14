@@ -1,7 +1,8 @@
-import ieeeFooterLogo from "@/assets/ieee-footer-logo.png";
+import React from "react";
+
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+
 import {
   BsFacebook,
   BsInstagram,
@@ -10,6 +11,8 @@ import {
   BsYoutube,
 } from "react-icons/bs";
 import { MdEmail, MdOutlineLocationOn } from "react-icons/md";
+
+import ieeeFooterLogo from "@/assets/ieee-footer-logo.png";
 
 function Footer() {
   return (
