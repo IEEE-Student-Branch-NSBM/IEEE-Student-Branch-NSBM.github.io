@@ -1,5 +1,11 @@
 "use client";
 
+import React from "react";
+
+import { zodResolver } from "@hookform/resolvers/zod";
+import { useForm } from "react-hook-form";
+import * as z from "zod";
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
@@ -12,10 +18,6 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { zodResolver } from "@hookform/resolvers/zod";
-import React from "react";
-import { useForm } from "react-hook-form";
-import * as z from "zod";
 
 const formSchema = z.object({
   firstName: z.string().min(1, { message: "First name is required" }),
@@ -24,7 +26,7 @@ const formSchema = z.object({
   message: z.string().min(1, { message: "Message is required" }),
 });
 
-const contactus = () => {
+const ContactUs = () => {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -41,7 +43,6 @@ const contactus = () => {
 
   return (
     <div className="container mx-auto p-4 lg:p-4">
-      <h1 className="text-4xl font-bold mb-6 md:mx-8 lg:mx-8">Contact Us</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-5 md:mx-8 lg:mx-8  ">
         <Card className="w-full">
           <CardHeader>
@@ -49,6 +50,7 @@ const contactus = () => {
               Our friendly team wants to hear from you
             </CardTitle>
           </CardHeader>
+
           <CardContent>
             <Form {...form}>
               <form
@@ -119,6 +121,7 @@ const contactus = () => {
             </Form>
           </CardContent>
         </Card>
+
         <div>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.575796315297!2d80.03899797406531!3d6.821334419632553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2523b05555555%3A0x546c34cd99f6f488!2sNSBM%20Green%20University!5e0!3m2!1sen!2slk!4v1726211085363!5m2!1sen!2slk"
@@ -128,11 +131,11 @@ const contactus = () => {
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
+          />
         </div>
       </div>
     </div>
   );
 };
 
-export default contactus;
+export default ContactUs;
