@@ -16,6 +16,7 @@ export default function DataCard({ data }: { data: string }) {
         height: "auto",
         margin: "0 auto",
         border: "0px solid #ccc",
+        padding: "20px",
       }}
     >
       <div style={{ display: "flex", alignItems: "center" }}>
