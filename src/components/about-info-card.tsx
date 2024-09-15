@@ -2,10 +2,10 @@ import React from "react";
 
 /*
 Usage :
-<DataCard data="YourParagraph|YourImageSrc"/>
+<AboutInfoCard data="YourParagraph|YourImageSrc"/>
 */
 
-export default function DataCard({ data }: { data: string }) {
+export default function AboutInfoCard({ data }: { data: string }) {
   // Split text to 2 parts from | character
   const [para, imgsrc] = data.split("|");
 
@@ -16,6 +16,7 @@ export default function DataCard({ data }: { data: string }) {
         height: "auto",
         margin: "0 auto",
         border: "0px solid #ccc",
+        padding: "20px",
       }}
     >
       <div style={{ display: "flex", alignItems: "center" }}>

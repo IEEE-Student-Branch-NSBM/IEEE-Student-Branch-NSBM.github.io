@@ -4,7 +4,7 @@ import React from "react";
 #COLORCODE[COLOR]OTHERDATA-SubtitleData
 */
 
-export default function TopLogo({ data }: { data: string }) {
+export default function AboutCardTitle({ data }: { data: string }) {
   const regex = /#([0-9A-Fa-f]{6})\[([^\]]+)\]([^-]*)-?(.*)/;
   const match = data.match(regex);
   const color = match ? `#${match[1]}` : "#000000"; // Default to black if no match
