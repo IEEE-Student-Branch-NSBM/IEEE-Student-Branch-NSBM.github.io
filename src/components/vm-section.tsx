@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 
-import ImageSwitcher from "@/components/image-switcher";
 import {
   Card,
   CardDescription,
@@ -9,48 +8,28 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-import ieeeSbLogo from "@/assets/ieee-sb-new-colored.png";
-import mission from "@/assets/mission.png";
-import vision from "@/assets/vision.png";
-import wieLogo from "@/assets/wie-colored.png";
+import { FaEye } from "react-icons/fa";
+import { TbTargetArrow } from "react-icons/tb";
+
+import IeeeCsColorBlackImage from "@/assets/ieee-cs-colored-black.png";
+import IeeeSbLogoImage from "@/assets/ieee-sb-new-colored.png";
+import WieLogoImage from "@/assets/wie-colored.png";
 
 const VisionMissionSection = () => {
   return (
-    <div className="xl:px-40 px-3">
-      <div className="grid justify-items-center lg:grid-cols-3 grid-cols-3 mb-10 mt-10">
-        <Image
-          src={ieeeSbLogo}
-          className="w-96 sm:pt-8 lg:pt-12 sm:ms-8 pt-4"
-          alt="SBLogo"
-          width={2000}
-          height={2000}
-        />
-        <Image
-          src={wieLogo}
-          className="w-12 sm:w-24 lg:w-40 lg:ms-6 ms-1 me-1"
-          alt="WIELogo"
-          width={2000}
-          height={2000}
-        />
-        <ImageSwitcher />
-      </div>
-      <div className="grid justify-items-center xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 gap-4">
-        <Card
-          className="shadow-lg sm:w-96 mt-5 dark:bg-black bg-stone-100 border-none"
-          id="card"
-        >
+    <div className="container mx-auto max-w-[1170px] flex flex-col justify-center items-center">
+      <div className="max-w-[300px] sm:max-w-[900px] flex flex-col p-5 sm:flex-row justify-center gap-5 ">
+        <Card className="shadow-lg flex-1 bg-stone-100 border-none">
           <CardHeader>
-            <CardTitle className="text-lg font-bold flex" id="cardTitle">
-              <Image
-                src={mission}
-                className="w-6 dark:invert m-1 pb-1"
-                alt="missionLogo"
-                width={1000}
-                height={1000}
-              />
-              OUR <p className="text-cyan-600 ms-2">MISSION</p>
+            <CardTitle className="flex items-center gap-3 text-lg font-bold">
+              <TbTargetArrow size={35} />
+
+              <div>
+                OUR <span className="text-cyan-600">MISSION</span>
+              </div>
             </CardTitle>
-            <CardDescription className="text-sm text-slate-700" id="cardDes">
+
+            <CardDescription className="text-sm text-slate-700">
               The Student Chapter of IEEE NSBM advises the community on ethics
               policy and concerns as well as fostering awareness on ethical
               issues and promoting ethical behavior amongst individuals and
@@ -58,29 +37,38 @@ const VisionMissionSection = () => {
             </CardDescription>
           </CardHeader>
         </Card>
-        <div className="sm:hidden xl:hidden"></div>
-        <Card
-          className="shadow-lg sm:w-96 dark:bg-black border-none mt-5 bg-stone-100"
-          id="card"
-        >
+
+        <Card className="shadow-lg flex-1 bg-stone-100 border-none">
           <CardHeader>
-            <CardTitle className="text-lg flex" id="cardTitle">
-              <Image
-                src={vision}
-                className="w-6 mb-1 dark:invert me-2 pb-1"
-                alt="visionLogo"
-                id="cardImg"
-                width={1000}
-              />
-              OUR <p className="text-cyan-600 ms-2">VISION</p>
+            <CardTitle className="flex items-center gap-3 text-lg font-bold">
+              <FaEye size={35} />
+
+              <div>
+                OUR <span className="text-cyan-600">VISION</span>
+              </div>
             </CardTitle>
-            <CardDescription className="text-sm text-slate-700" id="cardDes">
+
+            <CardDescription className="text-sm text-slate-700">
               A world in which engineers and scientists are respected for their
               exemplary ethical behavior and the IEEE and its Ethics & Member
               Conduct Committee are recognized as a major drive in this regard.
             </CardDescription>
           </CardHeader>
         </Card>
+      </div>
+
+      <div className="max-w-[300px] sm:max-w-[900px] flex flex-col p-5 sm:flex-row justify-center items-center gap-5">
+        <div className="flex-1">
+          <Image src={IeeeSbLogoImage} alt="SBLogo" />
+        </div>
+
+        <div className="flex-1 scale-50">
+          <Image src={WieLogoImage} alt="WIELogo" />
+        </div>
+
+        <div className="flex-1">
+          <Image src={IeeeCsColorBlackImage} alt="IEEE CS Logo" />
+        </div>
       </div>
     </div>
   );
