@@ -19,27 +19,21 @@ function GlobalNavItem(props: GlobalNavItemProps) {
 }
 
 function GlobalNav() {
+  const navItems = [
+    ROUTES.IEEE_HOME,
+    ROUTES.IEEE_XPLORE,
+    ROUTES.IEEE_STANDARDS,
+    ROUTES.IEEE_SPECTRUM,
+    ROUTES.IEEE_MORE_SITES,
+  ];
+
   return (
     <div className="flex flex-row gap-2 justify-start items-center h-[50px]">
-      <GlobalNavItem href={ROUTES.IEEE_HOME.url}>
-        {ROUTES.IEEE_HOME.label}
-      </GlobalNavItem>
-
-      <GlobalNavItem href={ROUTES.IEEE_XPLORE.url}>
-        {ROUTES.IEEE_XPLORE.label}
-      </GlobalNavItem>
-
-      <GlobalNavItem href={ROUTES.IEEE_STANDARDS.url}>
-        {ROUTES.IEEE_STANDARDS.label}
-      </GlobalNavItem>
-
-      <GlobalNavItem href={ROUTES.IEEE_SPECTRUM.url}>
-        {ROUTES.IEEE_SPECTRUM.label}
-      </GlobalNavItem>
-
-      <GlobalNavItem href={ROUTES.IEEE_MORE_SITES.url}>
-        {ROUTES.IEEE_MORE_SITES.label}
-      </GlobalNavItem>
+      {navItems.map((item) => (
+        <GlobalNavItem key={item.url} href={item.url}>
+          {item.label}
+        </GlobalNavItem>
+      ))}
     </div>
   );
 }
