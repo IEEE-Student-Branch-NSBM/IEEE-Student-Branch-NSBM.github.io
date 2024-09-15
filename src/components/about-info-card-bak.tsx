@@ -10,24 +10,57 @@ export default function AboutInfoCard({ data }: { data: string }) {
   const [para, imgsrc] = data.split("|");
 
   return (
-    <div className="w-[1200px] mx-auto p-5">
-      <div className="flex items-center">
-        <div className="flex-1 flex justify-center items-center">
+    <div
+      style={{
+        width: "1200px",
+        height: "auto",
+        margin: "0 auto",
+        border: "0px solid #ccc",
+        padding: "20px",
+      }}
+    >
+      <div style={{ display: "flex", alignItems: "center" }}>
+        <div
+          style={{
+            flex: 1,
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
           <p
-            className="text-lg font-normal text-justify"
+            style={{
+              fontSize: "18px",
+              fontWeight: "1",
+              textAlign: "justify",
+            }}
             dangerouslySetInnerHTML={{ __html: para }} // Properly setting dangerouslySetInnerHTML
           ></p>
         </div>
-        <div className="flex-1 flex justify-center items-center border-0">
-          <img src={imgsrc} alt="img" className="max-w-full h-auto" />
+        <div
+          style={{
+            flex: 1,
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            border: "0px solid #ccc",
+          }}
+        >
+          <img
+            src={imgsrc}
+            alt="img"
+            style={{ maxWidth: "100%", height: "auto" }}
+          />
         </div>
       </div>
-      <div className="flex justify-center mt-5">
+      <div
+        style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}
+      >
         <a
           href="https://www.facebook.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="mx-2"
+          style={{ margin: "0 10px" }}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +75,7 @@ export default function AboutInfoCard({ data }: { data: string }) {
           href="https://www.linkedin.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="mx-2"
+          style={{ margin: "0 10px" }}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +90,7 @@ export default function AboutInfoCard({ data }: { data: string }) {
           href="https://www.twitter.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="mx-2"
+          style={{ margin: "0 10px" }}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +105,7 @@ export default function AboutInfoCard({ data }: { data: string }) {
           href="https://www.instagram.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="mx-2"
+          style={{ margin: "0 10px" }}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
