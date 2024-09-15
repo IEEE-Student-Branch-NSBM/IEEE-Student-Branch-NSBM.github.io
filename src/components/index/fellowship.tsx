@@ -1,7 +1,9 @@
-import JoinUs from "@/assets/join-us.png";
 import Image from "next/image";
 import React from "react";
-import { Button } from "../ui/button";
+
+import { Button } from "@/components/ui/button";
+
+import JoinUsImage from "@/assets/join-us.png";
 
 function fellowship() {
   return (
@@ -28,7 +30,12 @@ function fellowship() {
           </div>
         </div>
         <div className="flex md:flex-row flex-col justify-center gap-10  ">
-          <Image width={600} height={123} src={JoinUs} alt="ieee-footer-logo" />
+          <Image
+            width={600}
+            height={123}
+            src={JoinUsImage}
+            alt="ieee-footer-logo"
+          />
 
           <div className="space-y-2 max-w-[520px]   ">
             <h2 className="font-bold md:text-[2.653rem] text-[2.253rem] text-opacity-85  ">
