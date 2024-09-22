@@ -1,3 +1,4 @@
+import placeholder from "@/assets/placeholder.png";
 import {
   Card,
   CardContent,
@@ -16,7 +17,7 @@ export default function TwentyFourEvents() {
         <Card className="bg-slate-300 rounded-xl ">
           <CardHeader>
             <Image
-              src="https://via.placeholder.com/1920x1080/eee?text=16:9"
+              src={placeholder}
               alt="duothan 4.0"
               width={1600}
               height={900}
@@ -44,7 +45,7 @@ export default function TwentyFourEvents() {
         <Card className="bg-slate-300 rounded-xl">
           <CardHeader>
             <Image
-              src="https://via.placeholder.com/1920x1080/eee?text=16:9"
+              src={placeholder}
               alt="2024 events"
               width={1600}
               height={900}
@@ -72,7 +73,7 @@ export default function TwentyFourEvents() {
         <Card className="bg-slate-300 rounded-xl">
           <CardHeader>
             <Image
-              src="https://via.placeholder.com/1920x1080/eee?text=16:9"
+              src={placeholder}
               alt="2024 events"
               width={1600}
               height={900}

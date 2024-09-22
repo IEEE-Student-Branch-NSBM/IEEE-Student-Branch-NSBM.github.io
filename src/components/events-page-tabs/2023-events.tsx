@@ -1,3 +1,4 @@
+import placeholder from "@/assets/placeholder.png";
 import {
   Card,
   CardContent,
@@ -5,6 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import Image from "next/image";
 import Link from "next/link";
 import { Button } from "../ui/button";
 
@@ -14,8 +16,8 @@ export default function TwentyThreeEvents() {
       <div className="grid grid-cols-1 md:grid-cols-2 container mx-auto max-w-[390px] md:max-w-[690px] lg:max-w-[850px] xl:max-w-[1100px] gap-5">
         <Card className="bg-slate-300 rounded-xl ">
           <CardHeader>
-            <img
-              src="https://via.placeholder.com/1920x1080/eee?text=16:9"
+            <Image
+              src={placeholder}
               alt="duothan 4.0"
               width={1600}
               height={900}
@@ -42,8 +44,8 @@ export default function TwentyThreeEvents() {
         </Card>
         <Card className="bg-slate-300 rounded-xl">
           <CardHeader>
-            <img
-              src="https://via.placeholder.com/1920x1080/eee?text=16:9"
+            <Image
+              src={placeholder}
               alt="2024 events"
               width={1600}
               height={900}
@@ -70,8 +72,8 @@ export default function TwentyThreeEvents() {
         </Card>
         <Card className="bg-slate-300 rounded-xl">
           <CardHeader>
-            <img
-              src="https://via.placeholder.com/1920x1080/eee?text=16:9"
+            <Image
+              src={placeholder}
               alt="2024 events"
               width={1600}
               height={900}
