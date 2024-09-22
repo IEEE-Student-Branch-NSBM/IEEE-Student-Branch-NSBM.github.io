@@ -1,21 +1,21 @@
+import Image, { StaticImageData } from "next/image";
+import Link from "next/link";
+import { Button } from "../ui/button";
 import {
   Card,
   CardContent,
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import Image, { StaticImageData } from "next/image";
-import Link from "next/link";
-import { Button } from "../ui/button";
+} from "../ui/card";
 import { events } from "./event-data";
 
-export default function TwentyFourEvents() {
-  const TwentyFourEvents = events.filter(
-    (event: { year: number }) => event.year === 2024,
+export default function TwentyOneEvents() {
+  const TwentyOneEvents = events.filter(
+    (event: { year: number }) => event.year === 2021,
   );
 
-  const eventsCard = TwentyFourEvents.map(
+  const eventsCard = TwentyOneEvents.map(
     (event: {
       year: number;
       title: string;
@@ -27,7 +27,7 @@ export default function TwentyFourEvents() {
         <CardHeader>
           <Image
             src={event.image}
-            alt={event.title}
+            alt="duothan 4.0"
             width={1600}
             height={900}
             className="mx-auto mb-5 aspect-video"
@@ -41,7 +41,7 @@ export default function TwentyFourEvents() {
         </CardContent>
         <CardFooter>
           <Button asChild className="bg-blue-950 text-white border-none">
-            <Link href={event.link}>View More</Link>
+            <Link href="#">View More</Link>
           </Button>
         </CardFooter>
       </Card>

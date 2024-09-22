@@ -1,3 +1,5 @@
+import TwentyOneEvents from "@/components/events-page-tabs/2021-events";
+import TwentyTwoEvents from "@/components/events-page-tabs/2022-events";
 import TwentyThreeEvents from "@/components/events-page-tabs/2023-events";
 import TwentyFourEvents from "@/components/events-page-tabs/2024-events";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -10,7 +12,7 @@ export default function events() {
       </h1>
       <div>
         <Tabs
-          defaultValue="account"
+          defaultValue="2024Events"
           className="container mx-auto max-w-[400px] md:max-w-[700px] lg:max-w-[870px] xl:max-w-[1200px]"
         >
           <TabsList className="grid w-full mb-5 grid-cols-4 bg-slate-300 text-lg">
@@ -25,8 +27,12 @@ export default function events() {
           <TabsContent value="2023Events">
             <TwentyThreeEvents />
           </TabsContent>
-          <TabsContent value="2022Events"></TabsContent>
-          <TabsContent value="2021Events"></TabsContent>
+          <TabsContent value="2022Events">
+            <TwentyTwoEvents />
+          </TabsContent>
+          <TabsContent value="2021Events">
+            <TwentyOneEvents />
+          </TabsContent>
         </Tabs>
       </div>
     </div>
