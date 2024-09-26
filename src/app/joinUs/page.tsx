@@ -3,15 +3,15 @@ import Image from "next/image";
 
 export default function joinUs() {
   return (
-    <div className="mx-6 mt-12  ">
+    <div className="mx-6 mt-12 ">
       {/* Section1*/}
 
-      <div className="flex flex-col lg:flex-row items-center space-y-8">
+      <div className="flex flex-col lg:flex-row items-center space-y-8 gap-2">
         <div className="lg:w-1/3  ">
           <h1 className="md:text-[3.770rem] text-[2.570rem] font-bold  ">
             Our <span className="text-primaryLight">Vision</span>
           </h1>
-          <p className="text-[1.223rem] text-opacity-85 mt-4 ">
+          <p className="text-[1.163rem] text-opacity-85 mt-4  ">
             A world in which engineers and scientists are respected for their
             exemplary ethical behavior and the IEEE and its Ethics & Member
             Conduct Committee are recognized as a major drive in this regard.
@@ -30,7 +30,7 @@ export default function joinUs() {
 
       {/* Section1*/}
 
-      <div className="flex flex-col-reverse lg:flex-row items-center space-y-8 ">
+      <div className="flex flex-col-reverse lg:flex-row items-center space-y-8 gap-2 ">
         <div className="lg:w-2/3 mt-8">
           <Image
             src="https://placehold.co/900x350.png"
@@ -44,7 +44,7 @@ export default function joinUs() {
           <h1 className="md:text-[3.770rem] text-[2.570rem] font-bold ">
             Our <span className="text-primaryLight">Mission</span>
           </h1>
-          <p className="text-[1.223rem] text-opacity-85 mt-4 ">
+          <p className="text-[1.163rem] text-opacity-85 mt-4 ">
             The Student Chapter of IEEE NSBM advises the community on ethics
             policy and concerns as well as fostering awareness on ethical issues
             and promoting ethical behavior amongst individuals and organizations
@@ -103,6 +103,62 @@ export default function joinUs() {
         <a href="" className="text-primaryLight">
           click here to download the instructional PDF
         </a>
+      </div>
+
+      {/* Section5*/}
+
+      <div className="+ py-8 ">
+        <div className="w-full flex justify-center mt-10  ">
+          <div
+            className="relative mb-4"
+            style={{ width: "80%", paddingBottom: "45%" }}
+          >
+            <iframe
+              src="https://www.youtube.com/embed/bFQzQ9av6eM?si=B7T6_yRbaIHNGqYL"
+              className="absolute top-0 left-0 w-full h-full"
+              frameBorder="0"
+              allow="autoplay; encrypted-media"
+              allowFullScreen
+            />
+          </div>
+        </div>
+
+        {/* Section5*/}
+
+        <div className="w-full flex justify-center my-12 ">
+          <div
+            className="grid grid-cols-1 md:grid-cols-3 gap-4"
+            style={{ width: "100%" }}
+          >
+            <div className="relative" style={{ paddingBottom: "45%" }}>
+              <iframe
+                src="https://www.youtube.com/embed/yet_another_video_id_here"
+                className="absolute top-0 left-0 w-full h-full"
+                frameBorder="0"
+                allow="autoplay; encrypted-media"
+                allowFullScreen
+              />
+            </div>
+            <div className="relative" style={{ paddingBottom: "45%" }}>
+              <iframe
+                src="https://www.youtube.com/embed/el0A0U7bJ6c"
+                className="absolute top-0 left-0 w-full h-full"
+                frameBorder="0"
+                allow="autoplay; encrypted-media"
+                allowFullScreen
+              />
+            </div>
+            <div className="relative" style={{ paddingBottom: "45%" }}>
+              <iframe
+                src="https://www.youtube.com/embed/yet_another_video_id_here"
+                className="absolute top-0 left-0 w-full h-full"
+                frameBorder="0"
+                allow="autoplay; encrypted-media"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
