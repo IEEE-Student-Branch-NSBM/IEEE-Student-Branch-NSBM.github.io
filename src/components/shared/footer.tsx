@@ -15,28 +15,46 @@ import { MdEmail, MdOutlineLocationOn } from "react-icons/md";
 import ieeeFooterLogo from "@/assets/ieee-footer-logo.png";
 
 function Footer() {
+  const footerLinks = [
+    {
+      icon: <BsFacebook />,
+      link: "",
+    },
+    {
+      icon: <BsLinkedin />,
+      link: "",
+    },
+    {
+      icon: <BsTwitterX />,
+      link: "",
+    },
+    {
+      icon: <BsInstagram />,
+      link: "",
+    },
+    {
+      icon: <BsYoutube />,
+      link: "",
+    },
+  ];
+
   return (
     <footer className="w-full bg-primaryDark text-white text-center mt-auto">
       <div className="w-full lg:flex">
         <div className="w-full lg:w-1/4 flex justify-center">
           <div className="bg-primaryLight w-[250px] py-7 rounded-b-3xl mb-8 flex flex-col gap-4">
             <Image src={ieeeFooterLogo} width={250} height={123} alt="logo" />
+
             <div className="flex p-2 justify-center text-[20px] gap-2">
-              <Link href="#" className="footer-social">
-                <BsFacebook />
-              </Link>
-              <Link href="#" className="footer-social">
-                <BsLinkedin />
-              </Link>
-              <Link href="#" className="footer-social">
-                <BsTwitterX />
-              </Link>
-              <Link href="#" className="footer-social">
-                <BsInstagram />
-              </Link>
-              <Link href="#" className="footer-social">
-                <BsYoutube />
-              </Link>
+              {footerLinks.map((link, index) => (
+                <Link
+                  key={index}
+                  href={link.link}
+                  className="w-9 h-9 flex items-center justify-center rounded-full bg-opacity-0 hover:bg-opacity-10 bg-white duration-500"
+                >
+                  {link.icon}
+                </Link>
+              ))}
             </div>
           </div>
         </div>
