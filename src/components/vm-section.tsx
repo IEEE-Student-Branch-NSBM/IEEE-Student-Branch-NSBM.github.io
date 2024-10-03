@@ -58,7 +58,7 @@ const VisionMissionSection = () => {
       </div>
 
       <div className="max-w-[300px] sm:max-w-[900px] flex flex-col p-5 sm:flex-row justify-center items-center gap-5">
-        <div className="flex-1">
+        <div className="flex-1 scale-110">
           <Image src={IeeeSbLogoImage} alt="SBLogo" />
         </div>
 
@@ -66,7 +66,7 @@ const VisionMissionSection = () => {
           <Image src={WieLogoImage} alt="WIELogo" />
         </div>
 
-        <div className="flex-1">
+        <div className="flex-1 w-1/3">
           <Image src={IeeeCsColorBlackImage} alt="IEEE CS Logo" />
         </div>
       </div>
