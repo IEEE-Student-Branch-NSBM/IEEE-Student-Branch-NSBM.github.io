@@ -4,6 +4,34 @@ interface Route {
 }
 
 export const ROUTES: { [key: string]: Route } = {
+  HOME: {
+    url: "/",
+    label: "Home",
+  },
+  EVENTS: {
+    url: "/#events",
+    label: "Events",
+  },
+  BLOG: {
+    url: "/#blog",
+    label: "Blog",
+  },
+  EXCOM: {
+    url: "/#excom",
+    label: "Excom",
+  },
+  ABOUT_US: {
+    url: "/#about",
+    label: "About Us",
+  },
+  CONTACT_US: {
+    url: "/#contact",
+    label: "Contact Us",
+  },
+  JOIN_US: {
+    url: "/#join",
+    label: "Join Us",
+  },
   IEEE_HOME: {
     url: "https://www.ieee.org/",
     label: "IEEE.org",
