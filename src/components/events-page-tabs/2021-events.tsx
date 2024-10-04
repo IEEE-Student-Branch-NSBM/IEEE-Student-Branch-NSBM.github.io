@@ -1,5 +1,6 @@
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
+import { events } from "../../content/event-data";
 import { Button } from "../ui/button";
 import {
   Card,
@@ -8,7 +9,6 @@ import {
   CardHeader,
   CardTitle,
 } from "../ui/card";
-import { events } from "./event-data";
 
 export default function TwentyOneEvents() {
   const TwentyOneEvents = events.filter(

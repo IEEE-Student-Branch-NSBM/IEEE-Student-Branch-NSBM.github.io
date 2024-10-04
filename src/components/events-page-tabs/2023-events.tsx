@@ -7,8 +7,8 @@ import {
 } from "@/components/ui/card";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
+import { events } from "../../content/event-data";
 import { Button } from "../ui/button";
-import { events } from "./event-data";
 
 export default function TwentyThreeEvents() {
   const TwentyThreeEvents = events.filter(
