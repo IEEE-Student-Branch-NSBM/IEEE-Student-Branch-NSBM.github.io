@@ -1,8 +1,13 @@
+import DVC from "@/assets/bc-and-excom/dvc.png";
+import placeholder from "@/assets/placeholder.png";
+import Image from "next/image";
 import React from "react";
+
+import { StaticImageData } from "next/image";
 
 interface Counsellor {
   name: string;
-  imageUrl: string;
+  imageUrl: string | StaticImageData;
   title: string;
   position: string;
 }
@@ -10,31 +15,31 @@ interface Counsellor {
 const counsellors: Counsellor[] = [
   {
     name: "Prof. Chaminda Rathnayake",
-    imageUrl: "https://via.placeholder.com/150",
+    imageUrl: DVC,
     title: "Deputy Vice Chancellor at NSBM",
     position: "Branch Counsellor",
   },
   {
-    name: "Ms. Dulanjali Wijesekara",
-    imageUrl: "https://via.placeholder.com/150",
+    name: "Mr. Gaya Perera",
+    imageUrl: placeholder,
     title: "Senior Lecturer at NSBM",
     position: "MIC - Faculty of Computing",
   },
   {
     name: "Mrs. Narmada Ranaweera",
-    imageUrl: "https://via.placeholder.com/150",
+    imageUrl: placeholder,
     title: "Senior Lecturer at NSBM",
     position: "MIC - Faculty of Engineering",
   },
   {
     name: "Ms. Kaumadee Samarakoon",
-    imageUrl: "https://via.placeholder.com/150",
+    imageUrl: placeholder,
     title: "Senior Lecturer at NSBM",
     position: "MIC - WIE Affinity Group",
   },
   {
     name: "Mr. Iman Ashly",
-    imageUrl: "https://via.placeholder.com/150",
+    imageUrl: placeholder,
     title: "Senior Lecturer at NSBM",
     position: "MIC - CS Student Branch Chapter",
   },
@@ -52,9 +57,11 @@ const BranchCounsellors: React.FC = () => {
             key={counsellor.name}
             className="flex flex-col items-center text-center "
           >
-            <img
+            <Image
               src={counsellor.imageUrl}
               alt={counsellor.name}
+              width={200}
+              height={400}
               className="rounded-full w-36 h-36 mb-4"
             />
             <h2 className="text-xl font-bold mb-2">{counsellor.name}</h2>
@@ -73,9 +80,11 @@ const BranchCounsellors: React.FC = () => {
             key={counsellor.name}
             className="flex flex-col items-center text-center"
           >
-            <img
+            <Image
               src={counsellor.imageUrl}
               alt={counsellor.name}
+              width={150}
+              height={150}
               className="rounded-full w-36 h-36 mb-4"
             />
             <h2 className="text-xl font-bold mb-2">{counsellor.name}</h2>
