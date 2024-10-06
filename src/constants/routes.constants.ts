@@ -9,7 +9,7 @@ export const ROUTES: { [key: string]: Route } = {
     label: "Home",
   },
   EVENTS: {
-    url: "/#events",
+    url: "/events-page",
     label: "Events",
   },
   BLOG: {
