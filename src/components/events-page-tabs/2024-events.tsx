@@ -40,7 +40,7 @@ export default function TwentyFourEvents() {
           </p>
         </CardContent>
         <CardFooter>
-          <Button asChild className="bg-blue-950 text-white border-none">
+          <Button asChild className="bg-blue text-white border-none">
             <Link href={event.link}>View More</Link>
           </Button>
         </CardFooter>
