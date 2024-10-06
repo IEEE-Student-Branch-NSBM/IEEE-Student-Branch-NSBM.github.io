@@ -79,8 +79,8 @@ function LocalNav() {
   ];
 
   return (
-    <div className="flex justify-center w-full bg-blue sticky top-0">
-      <nav className="flex flex-row gap-5 uppercase font-bold justify-center items-center py-3 text-white max-w-[1170px] grow shadow-2xl">
+    <div className="flex justify-center w-full bg-blue z-50 sticky top-0">
+      <nav className="flex flex-row gap-6 uppercase font-semibold justify-center items-center py-3 text-white max-w-[1170px] grow shadow-2xl">
         {navItems.map((item) => (
           <LocalNavItem key={item.url} href={item.url}>
             {item.label}
@@ -101,7 +101,7 @@ function Header() {
           <Image
             src={IeeeSbWhiteImage}
             alt="IEEE SB Logo"
-            height={100}
+            height={70}
             quality={10}
             className="max-w-md"
           />
@@ -109,7 +109,7 @@ function Header() {
           <Image
             src={IeeeLogoWhite}
             alt="IEEE Logo"
-            height={100}
+            height={70}
             className="max-w-md"
           />
         </div>
