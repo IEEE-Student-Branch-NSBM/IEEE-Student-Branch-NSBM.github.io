@@ -13,23 +13,23 @@ export const ROUTES: { [key: string]: Route } = {
     label: "Events",
   },
   BLOG: {
-    url: "/#blog",
+    url: "/blog",
     label: "Blog",
   },
   EXCOM: {
-    url: "/#excom",
+    url: "/excom",
     label: "Excom",
   },
   ABOUT_US: {
-    url: "/#about",
+    url: "/about-us",
     label: "About Us",
   },
   CONTACT_US: {
-    url: "/#contact",
+    url: "/contact-us",
     label: "Contact Us",
   },
   JOIN_US: {
-    url: "/#join",
+    url: "/join-us",
     label: "Join Us",
   },
   IEEE_HOME: {
