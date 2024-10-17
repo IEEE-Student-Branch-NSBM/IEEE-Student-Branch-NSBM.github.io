@@ -1,5 +1,9 @@
 "use client";
-import placeholder from "@/assets/placeholder.png";
+import allexcom from "@/assets/hero-images/all-excom.jpg";
+import duothanImg from "@/assets/hero-images/duothan4.0.jpg";
+import duothanImg2 from "@/assets/hero-images/duothan4.1.jpg";
+import duothanImg4 from "@/assets/hero-images/duothan4.3.jpg";
+import skillshare from "@/assets/hero-images/skill-share.jpg";
 import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
 import * as React from "react";
@@ -13,13 +17,7 @@ import {
 } from "@/components/ui/carousel";
 
 export function HeroCarousel() {
-  const images = [
-    placeholder,
-    placeholder,
-    placeholder,
-    placeholder,
-    placeholder,
-  ];
+  const images = [duothanImg, duothanImg2, allexcom, duothanImg4, skillshare];
 
   const plugin = React.useRef(
     Autoplay({ delay: 2000, stopOnInteraction: true }),
@@ -28,9 +26,7 @@ export function HeroCarousel() {
   return (
     <Carousel
       plugins={[plugin.current]}
-      className="container mx-auto w-full"
-      onMouseEnter={plugin.current.stop}
-      onMouseLeave={plugin.current.reset}
+      className="mx-auto overflow-hidden object-cover xl:max-w-[1920px] xl:max-h-[810px] lg:max-w-[1280px] lg:max-h-[540px] md:max-w-[960px] md:max-h-[405px] sm:max-w-[640px] sm:max-h-[270px]"
     >
       <CarouselContent>
         {images.map((image, index) => (
@@ -39,8 +35,8 @@ export function HeroCarousel() {
               <Image
                 src={image}
                 alt={`carousel image ${index + 1}`}
-                width={1600}
-                height={900}
+                width={1920}
+                height={1080}
               />
             </div>
           </CarouselItem>
