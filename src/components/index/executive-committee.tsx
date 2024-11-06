@@ -13,21 +13,21 @@ interface Member {
 
 const members: Member[] = [
   {
-    name: "Isura Dilshan",
+    name: "Chathuranga Senarathne ",
     imageUrl: "https://via.placeholder.com/200",
     title: "Chairperson - IEEE Student Branch",
     facebookURL: "#",
     linkdInURL: "#",
   },
   {
-    name: "Nirasha Herath",
+    name: "Dewmi Hathurusingha",
     imageUrl: "https://via.placeholder.com/200",
     title: "Chairperson - IEEE Women In Engineering",
     facebookURL: "#",
     linkdInURL: "#",
   },
   {
-    name: "Dasanjith Gunarathna",
+    name: "Abhishek Bandaranaike",
     imageUrl: "https://via.placeholder.com/200",
     title: "Chairperson - IEEE Computer Society",
     facebookURL: "#",

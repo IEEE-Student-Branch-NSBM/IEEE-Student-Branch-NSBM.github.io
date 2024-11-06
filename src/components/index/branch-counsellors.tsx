@@ -20,28 +20,16 @@ const counsellors: Counsellor[] = [
     position: "Branch Counsellor",
   },
   {
-    name: "Mr. Gaya Perera",
+    name: "Mr. Gayan Perera",
     imageUrl: placeholder,
     title: "Senior Lecturer at NSBM",
     position: "MIC - Faculty of Computing",
   },
   {
-    name: "Mrs. Narmada Ranaweera",
-    imageUrl: placeholder,
-    title: "Senior Lecturer at NSBM",
-    position: "MIC - Faculty of Engineering",
-  },
-  {
     name: "Ms. Kaumadee Samarakoon",
     imageUrl: placeholder,
     title: "Senior Lecturer at NSBM",
-    position: "MIC - WIE Affinity Group",
-  },
-  {
-    name: "Mr. Iman Ashly",
-    imageUrl: placeholder,
-    title: "Senior Lecturer at NSBM",
-    position: "MIC - CS Student Branch Chapter",
+    position: "Advisor - IEEE of WIE Affinity Group of NSBM",
   },
 ];
 

@@ -27,10 +27,10 @@ const VisionMissionSection = () => {
             </CardTitle>
 
             <CardDescription className="text-sm text-slate-700">
-              The Student Chapter of IEEE NSBM advises the community on ethics
+              The IEEE Student Branch of NSBM advises the community on ethics
               policy and concerns as well as fostering awareness on ethical
-              issues and promoting ethical behavior amongst individuals and
-              organizations working within the IEEE fields of interest.
+              issues and promoting ethical behaviour amongst individuals and
+              organisations working within the IEEE fields of interest.
             </CardDescription>
           </CardHeader>
         </Card>
@@ -47,7 +47,7 @@ const VisionMissionSection = () => {
 
             <CardDescription className="text-sm text-slate-700">
               A world in which engineers and scientists are respected for their
-              exemplary ethical behavior and the IEEE and its Ethics & Member
+              exemplary ethical behaviour and the IEEE and its Ethics & Member
               Conduct Committee are recognized as a major drive in this regard.
             </CardDescription>
           </CardHeader>
