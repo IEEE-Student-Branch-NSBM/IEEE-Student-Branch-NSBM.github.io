@@ -12,7 +12,7 @@ import {
 } from "react-icons/bs";
 import { MdEmail, MdOutlineLocationOn } from "react-icons/md";
 
-import ieeeFooterLogo from "@/assets/ieee-footer-logo.png";
+import ieeeFooterLogo from "@/assets/logos/ieee-footer-logo.png";
 
 function Footer() {
   const footerLinks = [

@@ -1,6 +1,6 @@
-import IeeeCsColorBlackImage from "@/assets/ieee-cs-colored-black.png";
-import IeeeSbLogoImage from "@/assets/ieee-sb-new-colored.png";
-import WieLogoImage from "@/assets/wie-colored.png";
+import IeeeCsColorBlackImage from "@/assets/logos/ieee-cs-colored-black.png";
+import IeeeSbLogoImage from "@/assets/logos/ieee-sb-new-colored.png";
+import WieLogoImage from "@/assets/logos/wie-colored.png";
 import {
   Card,
   CardDescription,
