@@ -18,33 +18,6 @@ function page() {
     },
   ];
 
-  const pastExcom = [
-    {
-      name: "Lihini Nisansala",
-      position: "Chairperson",
-      imgUrl: DVC,
-    },
-    {
-      name: "Name",
-      position: "Position",
-      imgUrl: DVC,
-    },
-    {
-      name: "Name",
-      position: "Position",
-      imgUrl: DVC,
-    },
-    {
-      name: "Name",
-      position: "Position",
-      imgUrl: DVC,
-    },
-    {
-      name: "Name",
-      position: "Position",
-      imgUrl: DVC,
-    },
-  ];
   return (
     <>
       <HeroCarousel cimages={carrouselImages} gradient="from-wieLight" />
@@ -58,26 +31,19 @@ function page() {
           as well as to inspiring girls to follow their academic interests to a
           career in engineering."
       />
-      <EventCard />
-      <ExcomSection
-        title="Executive Committee 2021/22"
+      <EventCard category="wie" />
+      <PastExcomSection
+        title="Executive Committee 2025/26"
+        year={2025}
+        category="wie"
         description="The Women’s Executive Board is designed to help the Techie Girls to
         drive better decisions, gain fearless confidence and achieve their
         biggest outcomes with intention and passion. We intend to increase
         women's access to the technology sector and we are making the initial
         steps in that direction by hosting motivational sessions for Women in
         Tech."
-        imgUrl={DVC}
       />
-      <PastExcomSection
-        title="Executive Committee 2020/21"
-        excoms={pastExcom}
-      />
-      <PastExcomSection
-        title="Newly Appointed Executive Committee 2022/23"
-        excoms={pastExcom}
-      />
-      <PastExcomSection title="Past Executive Committee" excoms={pastExcom} />
+      <ExcomSection title="Past Executive Committee" imgUrl={DVC} />
       <ShapeFuture />
     </>
   );

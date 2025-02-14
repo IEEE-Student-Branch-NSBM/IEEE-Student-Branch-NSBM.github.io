@@ -18,33 +18,6 @@ function page() {
     },
   ];
 
-  const pastExcom = [
-    {
-      name: "Lihini Nisansala",
-      position: "Chairperson",
-      imgUrl: DVC,
-    },
-    {
-      name: "Name",
-      position: "Position",
-      imgUrl: DVC,
-    },
-    {
-      name: "Name",
-      position: "Position",
-      imgUrl: DVC,
-    },
-    {
-      name: "Name",
-      position: "Position",
-      imgUrl: DVC,
-    },
-    {
-      name: "Name",
-      position: "Position",
-      imgUrl: DVC,
-    },
-  ];
   return (
     <>
       <HeroCarousel cimages={carrouselImages} gradient="from-csLight" />
@@ -55,26 +28,14 @@ function page() {
         backgroundColor="bg-[#fff4e1]"
         description="IEEE Computer Society is a professional society of the Institute of Electrical and Electronics Engineers (IEEE). It sponsors workshops and conferences, operates technical committees, and develops IEEE computing standards. The community supports more than 200 chapters worldwide and participates in educational activities at all levels in CS and professional certification in software engineering. IEEE Computer Society of NSBM is the student chapter of the NSBM Green University, and its purpose is to increase the knowledge in computer literacy & IT, as well as the professional standing of its members."
       />
-      <EventCard />
-      <ExcomSection
-        title="Executive Committee 2021/22"
-        description="The Women’s Executive Board is designed to help the Techie Girls to
-        drive better decisions, gain fearless confidence and achieve their
-        biggest outcomes with intention and passion. We intend to increase
-        women's access to the technology sector and we are making the initial
-        steps in that direction by hosting motivational sessions for Women in
-        Tech."
-        imgUrl={DVC}
-      />
+      <EventCard category="cs" />
       <PastExcomSection
-        title="Executive Committee 2020/21"
-        excoms={pastExcom}
+        title="Executive Committee 2025/26"
+        year={2025}
+        category="cs"
+        description="The Executive Committee of IEEE Computer Society will deliver organizational guidance to the community. Join the IEEE Computer Society, a leading organization for anyone engaged in computers and information technology to expand their knowledge."
       />
-      <PastExcomSection
-        title="Newly Appointed Executive Committee 2022/23"
-        excoms={pastExcom}
-      />
-      <PastExcomSection title="Past Executive Committee" excoms={pastExcom} />
+      <ExcomSection title="Past Executive Committee" imgUrl={DVC} />
       <ShapeFuture />
     </>
   );

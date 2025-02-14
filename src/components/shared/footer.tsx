@@ -38,6 +38,8 @@ function Footer() {
     },
   ];
 
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="w-full bg-primaryDark text-white text-center mt-20">
       <div className="w-full lg:flex">
@@ -110,7 +112,7 @@ function Footer() {
 
       <div className="md:flex justify-end">
         <div className="w-full lg:w-1/3 max-md:mb-2">
-          © Copyright 2024 | All rights reserved
+          {`© Copyright ${currentYear} | All rights reserved`}
         </div>
         <div className="w-full lg:w-1/3 flex justify-end">
           <Link

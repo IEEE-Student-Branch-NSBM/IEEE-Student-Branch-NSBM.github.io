@@ -6,7 +6,8 @@ export const events = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempora laborum consequatur illum, earum iusto cumque odio! Ab rerum nam, facere delectus consequuntur in aspernatur perspiciatis quidem perferendis nesciunt, voluptate eius magnam quo quis quos error! Fuga, quibusdam eius reiciendis accusamus veritatis, magni inventore perspiciatis ad quisquam dolore laborum facilis.",
     image: require("@/assets/placeholder.png") as StaticImageData,
-    link: "#",
+    link: "duothan-4",
+    category: "cs",
   },
   {
     year: 2024,
@@ -15,6 +16,7 @@ export const events = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempora laborum consequatur illum, earum iusto cumque odio! Ab rerum nam, facere delectus consequuntur in aspernatur perspiciatis quidem perferendis nesciunt, voluptate eius magnam quo quis quos error! Fuga, quibusdam eius reiciendis accusamus veritatis, magni inventore perspiciatis ad quisquam dolore laborum facilis.",
     image: require("@/assets/placeholder.png") as StaticImageData,
     link: "#",
+    category: "cs",
   },
   {
     year: 2024,
@@ -23,6 +25,7 @@ export const events = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempora laborum consequatur illum, earum iusto cumque odio! Ab rerum nam, facere delectus consequuntur in aspernatur perspiciatis quidem perferendis nesciunt, voluptate eius magnam quo quis quos error! Fuga, quibusdam eius reiciendis accusamus veritatis, magni inventore perspiciatis ad quisquam dolore laborum facilis.",
     image: require("@/assets/placeholder.png") as StaticImageData,
     link: "#",
+    category: "sb",
   },
   {
     year: 2023,
@@ -31,6 +34,7 @@ export const events = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempora laborum consequatur illum, earum iusto cumque odio! Ab rerum nam, facere delectus consequuntur in aspernatur perspiciatis quidem perferendis nesciunt, voluptate eius magnam quo quis quos error! Fuga, quibusdam eius reiciendis accusamus veritatis, magni inventore perspiciatis ad quisquam dolore laborum facilis.",
     image: require("@/assets/placeholder.png") as StaticImageData,
     link: "#",
+    category: "cs",
   },
   {
     year: 2023,
@@ -39,6 +43,7 @@ export const events = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempora laborum consequatur illum, earum iusto cumque odio! Ab rerum nam, facere delectus consequuntur in aspernatur perspiciatis quidem perferendis nesciunt, voluptate eius magnam quo quis quos error! Fuga, quibusdam eius reiciendis accusamus veritatis, magni inventore perspiciatis ad quisquam dolore laborum facilis.",
     image: require("@/assets/placeholder.png") as StaticImageData,
     link: "#",
+    category: "cs",
   },
   {
     year: 2023,
@@ -47,6 +52,7 @@ export const events = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempora laborum consequatur illum, earum iusto cumque odio! Ab rerum nam, facere delectus consequuntur in aspernatur perspiciatis quidem perferendis nesciunt, voluptate eius magnam quo quis quos error! Fuga, quibusdam eius reiciendis accusamus veritatis, magni inventore perspiciatis ad quisquam dolore laborum facilis.",
     image: require("@/assets/placeholder.png") as StaticImageData,
     link: "#",
+    category: "sb",
   },
   {
     year: 2022,
@@ -55,6 +61,7 @@ export const events = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempora laborum consequatur illum, earum iusto cumque odio! Ab rerum nam, facere delectus consequuntur in aspernatur perspiciatis quidem perferendis nesciunt, voluptate eius magnam quo quis quos error! Fuga, quibusdam eius reiciendis accusamus veritatis, magni inventore perspiciatis ad quisquam dolore laborum facilis.",
     image: require("@/assets/placeholder.png") as StaticImageData,
     link: "#",
+    category: "cs",
   },
   {
     year: 2022,
@@ -63,6 +70,7 @@ export const events = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempora laborum consequatur illum, earum iusto cumque odio! Ab rerum nam, facere delectus consequuntur in aspernatur perspiciatis quidem perferendis nesciunt, voluptate eius magnam quo quis quos error! Fuga, quibusdam eius reiciendis accusamus veritatis, magni inventore perspiciatis ad quisquam dolore laborum facilis.",
     image: require("@/assets/placeholder.png") as StaticImageData,
     link: "#",
+    category: "wie",
   },
   {
     year: 2022,
@@ -71,6 +79,7 @@ export const events = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempora laborum consequatur illum, earum iusto cumque odio! Ab rerum nam, facere delectus consequuntur in aspernatur perspiciatis quidem perferendis nesciunt, voluptate eius magnam quo quis quos error! Fuga, quibusdam eius reiciendis accusamus veritatis, magni inventore perspiciatis ad quisquam dolore laborum facilis.",
     image: require("@/assets/placeholder.png") as StaticImageData,
     link: "#",
+    category: "sb",
   },
   {
     year: 2021,
@@ -79,6 +88,7 @@ export const events = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempora laborum consequatur illum, earum iusto cumque odio! Ab rerum nam, facere delectus consequuntur in aspernatur perspiciatis quidem perferendis nesciunt, voluptate eius magnam quo quis quos error! Fuga, quibusdam eius reiciendis accusamus veritatis, magni inventore perspiciatis ad quisquam dolore laborum facilis.",
     image: require("@/assets/placeholder.png") as StaticImageData,
     link: "#",
+    category: "cs",
   },
   {
     year: 2021,
@@ -87,6 +97,7 @@ export const events = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempora laborum consequatur illum, earum iusto cumque odio! Ab rerum nam, facere delectus consequuntur in aspernatur perspiciatis quidem perferendis nesciunt, voluptate eius magnam quo quis quos error! Fuga, quibusdam eius reiciendis accusamus veritatis, magni inventore perspiciatis ad quisquam dolore laborum facilis.",
     image: require("@/assets/placeholder.png") as StaticImageData,
     link: "#",
+    category: "wie",
   },
   {
     year: 2021,
@@ -95,5 +106,6 @@ export const events = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempora laborum consequatur illum, earum iusto cumque odio! Ab rerum nam, facere delectus consequuntur in aspernatur perspiciatis quidem perferendis nesciunt, voluptate eius magnam quo quis quos error! Fuga, quibusdam eius reiciendis accusamus veritatis, magni inventore perspiciatis ad quisquam dolore laborum facilis.",
     image: require("@/assets/placeholder.png") as StaticImageData,
     link: "#",
+    category: "sb",
   },
 ];
