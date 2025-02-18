@@ -35,7 +35,7 @@ const ExecutiveCommittee = () => {
                 alt={member.name}
                 layout="fill"
                 objectFit="cover"
-                className="absolute inset-0 bg-gradient-to-b from-gray-400/50 to-gray-400/90"
+                className="absolute inset-0 bg-gradient-to-b from-blue/50 to-blue/90"
               />
             </div>
 
@@ -48,7 +48,6 @@ const ExecutiveCommittee = () => {
                 <Link href={member.facebookURL}>
                   <BsFacebook className="text-xl text-blue" />
                 </Link>
-
                 <Link href={member.linkdInURL}>
                   <BsLinkedin className="text-xl text-blue" />
                 </Link>
@@ -61,7 +60,7 @@ const ExecutiveCommittee = () => {
       <div className="flex justify-center">
         <Button
           onClick={handleReadMore}
-          className="w-[200px] px-4 py-2 bg-[#1f609b] text-white rounded hover:bg-[#316ca3] transition-colors duration-300"
+          className="w-[200px] px-4 py-2 bg-blue text-white rounded hover:bg-[#316ca3] transition-colors duration-300"
         >
           VIEW ALL MEMBERS
         </Button>

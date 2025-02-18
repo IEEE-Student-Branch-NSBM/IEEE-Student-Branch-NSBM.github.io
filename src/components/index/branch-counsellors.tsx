@@ -1,4 +1,5 @@
 import DVC from "@/assets/bc-and-excom/dvc.png";
+import MIC_FOC from "@/assets/bc-and-excom/mic-foc.png";
 import placeholder from "@/assets/placeholder.png";
 import Image from "next/image";
 import React from "react";
@@ -22,7 +23,7 @@ const counsellors: Counsellor[] = [
   },
   {
     name: "Mr. Gayan Perera",
-    imageUrl: placeholder,
+    imageUrl: MIC_FOC,
     title: "Senior Lecturer at NSBM",
     position: "MIC - Faculty of Computing",
   },
@@ -47,12 +48,13 @@ const BranchCounsellors: React.FC = () => {
             key={index}
             className="flex flex-col items-center overflow-hidden"
           >
-            <div className="aspect-square w-full relative">
+            <div className="aspect-square w-full relative ">
               <Image
                 src={counsellor.imageUrl}
                 alt={counsellor.name}
                 layout="fill"
                 objectFit="cover"
+                className="absolute inset-0 bg-gradient-to-b from-gray-400/50 to-gray-400/90"
               />
             </div>
 
