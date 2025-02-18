@@ -1,43 +1,34 @@
+"use client";
+import { members } from "@/content/excom-member-data";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import React from "react";
 import { BsFacebook, BsLinkedin } from "react-icons/bs";
 import { Button } from "../ui/button";
 import { Card, CardDescription, CardTitle } from "../ui/card";
 
-interface Member {
-  name: string;
-  imageUrl: string;
-  title: string;
-  linkdInURL: string;
-  facebookURL: string;
-}
+const ExecutiveCommittee = () => {
+  const router = useRouter();
+  const filteredExcom = members.filter(
+    (member) => member.role === "chairperson",
+  );
+  const handleReadMore = () => {
+    router.push("/excom");
+  };
+  const getBackgroundColor = (category: string) => {
+    switch (category) {
+      case "sb":
+        return "from-blue/50 to-blue/90";
+      case "cs":
+        return "from-csLight/50 to-csLight/90";
+      case "wie":
+        return "from-wieLight/50 to-wieLight/90";
+      default:
+        return "from-gray-400/50 to-gray-400/90";
+    }
+  };
 
-const members: Member[] = [
-  {
-    name: "Chathuranga Senarathne ",
-    imageUrl: "https://placehold.co/200x200.png",
-    title: "Chairperson - IEEE Student Branch",
-    facebookURL: "#",
-    linkdInURL: "#",
-  },
-  {
-    name: "Dewmi Hathurusingha",
-    imageUrl: "https://placehold.co/200x200.png",
-    title: "Chairperson - IEEE Women In Engineering",
-    facebookURL: "#",
-    linkdInURL: "#",
-  },
-  {
-    name: "Abhishek Bandaranaike",
-    imageUrl: "https://placehold.co/200x200.png",
-    title: "Chairperson - IEEE Computer Society",
-    facebookURL: "#",
-    linkdInURL: "#",
-  },
-];
-
-const ExecutiveCommittee: React.FC = () => {
   return (
     <div className="container mx-auto max-w-[1170px] space-y-5 px-5 xl:px-0">
       <h3 className="text-3xl font-bold text-center uppercase">
@@ -45,17 +36,18 @@ const ExecutiveCommittee: React.FC = () => {
       </h3>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-        {members.map((member, index) => (
+        {filteredExcom.map((member, index) => (
           <Card
             key={index}
             className="flex flex-col items-center overflow-hidden"
           >
             <div className="aspect-square w-full relative">
               <Image
-                src={member.imageUrl}
+                src={member.image}
                 alt={member.name}
                 layout="fill"
                 objectFit="cover"
+                className={`absolute inset-0 bg-gradient-to-b ${getBackgroundColor(member.category)}`}
               />
             </div>
 
@@ -66,11 +58,11 @@ const ExecutiveCommittee: React.FC = () => {
               <CardDescription>{member.title}</CardDescription>
               <div className="flex justify-center space-x-3">
                 <Link href={member.facebookURL}>
-                  <BsFacebook className="text-xl text-blue-600" />
+                  <BsFacebook className="text-xl text-blue" />
                 </Link>
 
                 <Link href={member.linkdInURL}>
-                  <BsLinkedin className="text-xl text-blue-700" />
+                  <BsLinkedin className="text-xl text-blue" />
                 </Link>
               </div>
             </div>
@@ -79,7 +71,10 @@ const ExecutiveCommittee: React.FC = () => {
       </div>
 
       <div className="flex justify-center">
-        <Button className="w-[200px] px-4 py-2 bg-[#1f609b] text-white rounded hover:bg-[#316ca3] transition-colors duration-300">
+        <Button
+          onClick={handleReadMore}
+          className="w-[200px] px-4 py-2 bg-[#1f609b] text-white rounded hover:bg-[#316ca3] transition-colors duration-300"
+        >
           VIEW ALL MEMBERS
         </Button>
       </div>
