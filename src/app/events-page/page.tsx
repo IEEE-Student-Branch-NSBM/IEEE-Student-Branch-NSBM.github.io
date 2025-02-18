@@ -1,6 +1,3 @@
-import TwentyOneEvents from "@/components/events-page-tabs/2021-events";
-import TwentyTwoEvents from "@/components/events-page-tabs/2022-events";
-import TwentyThreeEvents from "@/components/events-page-tabs/2023-events";
 import TwentyFourEvents from "@/components/events-page-tabs/2024-events";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
