@@ -16,18 +16,6 @@ const ExecutiveCommittee = () => {
   const handleReadMore = () => {
     router.push("/excom");
   };
-  const getBackgroundColor = (category: string) => {
-    switch (category) {
-      case "sb":
-        return "from-blue/50 to-blue/90";
-      case "cs":
-        return "from-csLight/50 to-csLight/90";
-      case "wie":
-        return "from-wieLight/50 to-wieLight/90";
-      default:
-        return "from-gray-400/50 to-gray-400/90";
-    }
-  };
 
   return (
     <div className="container mx-auto max-w-[1170px] space-y-5 px-5 xl:px-0">
@@ -41,13 +29,13 @@ const ExecutiveCommittee = () => {
             key={index}
             className="flex flex-col items-center overflow-hidden"
           >
-            <div className="aspect-square w-full relative">
+            <div className="aspect-square w-full relative shadow-inner z-10">
               <Image
                 src={member.image}
                 alt={member.name}
                 layout="fill"
                 objectFit="cover"
-                className={`absolute inset-0 bg-gradient-to-b ${getBackgroundColor(member.category)}`}
+                className="absolute inset-0 bg-gradient-to-b from-gray-400/50 to-gray-400/90"
               />
             </div>
 

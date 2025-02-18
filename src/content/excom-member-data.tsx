@@ -47,7 +47,7 @@ export const members = [
   //   year: 2025,
   //   name: "Jayasanka Ariyaratna",
   //   imageUrl: "/images/excom/2025/jayasanka-ariyaratna.jpg",
-  //   title: "Vice Chair-FOC",
+  //   title: "Vice Chair",
   //   linkdInURL: "",
   //   facebookURL: "",
   //   category: "sb",
@@ -63,15 +63,6 @@ export const members = [
   // },
   // {
   //   year: 2025,
-  //   name: "Thilarah Gunarathne",
-  //   imageUrl: "/images/excom/2025/thilarah-gunarathne.jpg",
-  //   title: "Assistant Secretary",
-  //   linkdInURL: "",
-  //   facebookURL: "",
-  //   category: "sb",
-  // },
-  // {
-  //   year: 2025,
   //   name: "Sithum Sankajith",
   //   imageUrl: "/images/excom/2025/sithum-sankajith.jpg",
   //   title: "Treasurer",
@@ -79,6 +70,16 @@ export const members = [
   //   facebookURL: "",
   //   category: "sb",
   // },
+  // {
+  //   year: 2025,
+  //   name: "Thilarah Gunarathne",
+  //   imageUrl: "/images/excom/2025/thilarah-gunarathne.jpg",
+  //   title: "Assistant Secretary",
+  //   linkdInURL: "",
+  //   facebookURL: "",
+  //   category: "sb",
+  // },
+  //
   // {
   //   year: 2025,
   //   name: "Kumuditha Ranasinghe",

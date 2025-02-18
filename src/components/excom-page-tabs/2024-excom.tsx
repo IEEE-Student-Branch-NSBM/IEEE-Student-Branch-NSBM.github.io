@@ -1,4 +1,5 @@
 import { members } from "@/content/excom-member-data";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import React from "react";
 import { BsFacebook, BsLinkedin } from "react-icons/bs";
@@ -15,7 +16,7 @@ export default function TwentyFourExcom({ category }: Props) {
     (member: {
       year: number;
       name: string;
-      imageUrl: string;
+      image: StaticImageData;
       title: string;
       linkdInURL: string;
       facebookURL: string;
@@ -24,10 +25,10 @@ export default function TwentyFourExcom({ category }: Props) {
         key={member.year}
         className="flex flex-col items-center w-[350px] h-[350px] shadow-lg rounded-2xl text-center mx-5 mt-10 hover:shadow-md transition-shadow duration-300"
       >
-        <img
-          src={member.imageUrl}
+        <Image
+          src={member.image}
           alt={member.name}
-          className="rounded-full w-[200px] h-[200px] mt-4 mb-4"
+          className="w-full h-[250px] mb-4 rounded-t-2xl"
         />
         <h2 className="text-xl font-bold">{member.name}</h2>
         <p className="text-sm text-gray-600">{member.title}</p>
