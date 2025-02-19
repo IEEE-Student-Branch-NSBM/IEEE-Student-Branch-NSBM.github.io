@@ -3,7 +3,7 @@ import duothanImg from "@/assets/hero-images/duothan4.0.jpg";
 import EventCard from "@/components/index/event-card";
 import HeroCarousel from "@/components/index/hero-section";
 import ShapeFuture from "@/components/index/shape-future";
-import ExcomSection from "@/components/wie-cs/ex-com-section";
+import ExcomSection from "@/components/wie-cs/excom-section";
 import PageIntro from "@/components/wie-cs/page-intro";
 import PastExcomSection from "@/components/wie-cs/past-excom-section";
 import React from "react";
@@ -32,7 +32,7 @@ function page() {
           career in engineering."
       />
       <EventCard category="wie" />
-      <PastExcomSection
+      <ExcomSection
         title="Executive Committee 2025/26"
         year={2025}
         category="wie"
@@ -43,7 +43,7 @@ function page() {
         steps in that direction by hosting motivational sessions for Women in
         Tech."
       />
-      <ExcomSection title="Past Executive Committee" imgUrl={DVC} />
+      <PastExcomSection title="Past Executive Committee" imgUrl={DVC} />
       <ShapeFuture />
     </>
   );
