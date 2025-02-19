@@ -1,6 +1,6 @@
 "use client";
 import { members } from "@/content/excom-member-data";
-import Image from "next/image";
+// import Image from "next/image";
 import React from "react";
 
 function PastExcomSection({
@@ -28,13 +28,13 @@ function PastExcomSection({
             className="w-[200px] text-center flex flex-col items-center rounded-lg border shadow-sm overflow-hidden"
           >
             <div className="w-full h-[200px] ">
-              <Image
-                src={excom.imageUrl}
+              {/* <Image
+                // src={excom.imageUrl}
                 alt={excom.name}
                 width={128}
                 height={128}
                 className="h-full w-full object-cover"
-              />
+              /> */}
             </div>
             <div className="p-2">
               <h2 className="text-base font-bold">{excom.name}</h2>
