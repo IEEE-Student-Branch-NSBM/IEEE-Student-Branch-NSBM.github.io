@@ -65,11 +65,11 @@ function Footer() {
           <div className="footer-col-content">
             <h3 className="footer-col-title">Get Started</h3>
             <div className="footer-col-navs-container">
-              <Link href="#">HOME</Link>
-              <Link href="#">EVENTS</Link>
-              <Link href="#">BLOG</Link>
-              <Link href="#">EXECUTIVE COMMITTEE</Link>
-              <Link href="#">MEMBERSHIP</Link>
+              <Link href="/">HOME</Link>
+              <Link href="/events-page">EVENTS</Link>
+              <Link href="/blog">BLOG</Link>
+              <Link href="/excom">EXECUTIVE COMMITTEE</Link>
+              <Link href="/join-us">MEMBERSHIP</Link>
             </div>
           </div>
         </div>
