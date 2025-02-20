@@ -37,6 +37,65 @@ export const members = [
   // {
   //   year: 2025,
   //   name: "Geeth Induwara",
+  //   image:
+  //     require("@/assets/bc-and-excom/excom/2025/jayasanka-ariyaratna.png") as StaticImageData,
+  //   title: "Chairperson - IEEE Student Branch",
+  //   linkdInURL: "",
+  //   facebookURL: "",
+  //   category: "sb",
+  // },{
+  //   year: 2025,
+  //   name: "Geeth Induwara",
+  //   image:
+  //     require("@/assets/bc-and-excom/excom/2025/jayasanka-ariyaratna.png") as StaticImageData,
+  //   title: "Chairperson - IEEE Student Branch",
+  //   linkdInURL: "",
+  //   facebookURL: "",
+  //   category: "sb",
+  // },{
+  //   year: 2025,
+  //   name: "Geeth Induwara",
+  //   image:
+  //     require("@/assets/bc-and-excom/excom/2025/jayasanka-ariyaratna.png") as StaticImageData,
+  //   title: "Chairperson - IEEE Student Branch",
+  //   linkdInURL: "",
+  //   facebookURL: "",
+  //   category: "sb",
+  // },
+  // {
+  //   year: 2025,
+  //   name: "Jayasanka Ariyaratna",
+  //   image:
+  //     require("@/assets/bc-and-excom/excom/2025/jayasanka-ariyaratna.png") as StaticImageData,
+  //   title: "Chairperson - IEEE Computer Society",
+  //   linkdInURL: "",
+  //   facebookURL: "",
+  //   category: "cs",
+  // },
+  // {
+  //   year: 2025,
+  //   name: "Jayasanka Ariyaratna",
+  //   image:
+  //     require("@/assets/bc-and-excom/excom/2025/jayasanka-ariyaratna.png") as StaticImageData,
+  //   title: "Chairperson - IEEE Computer Society",
+  //   linkdInURL: "",
+  //   facebookURL: "",
+  //   category: "cs",
+  // },
+  // {
+  //   year: 2025,
+  //   name: "Jayasanka Ariyaratna",
+  //   image:
+  //     require("@/assets/bc-and-excom/excom/2025/jayasanka-ariyaratna.png") as StaticImageData,
+  //   title: "Chairperson - IEEE Computer Society",
+  //   linkdInURL: "",
+  //   facebookURL: "",
+  //   category: "cs",
+  // },
+
+  // {
+  //   year: 2025,
+  //   name: "Geeth Induwara",
   //   imageUrl: "/images/excom/2025/Geeth-induwara.jpg",
   //   title: "Chairperson",
   //   linkdInURL: "",
