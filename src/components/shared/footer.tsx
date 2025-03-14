@@ -7,7 +7,8 @@ import {
   BsFacebook,
   BsInstagram,
   BsLinkedin,
-  BsTwitterX,
+  BsTiktok,
+  BsWhatsapp,
   BsYoutube,
 } from "react-icons/bs";
 import { MdEmail, MdOutlineLocationOn } from "react-icons/md";
@@ -18,23 +19,27 @@ function Footer() {
   const footerLinks = [
     {
       icon: <BsFacebook />,
-      link: "",
+      link: "https://www.facebook.com/ieeensbm",
     },
     {
       icon: <BsLinkedin />,
-      link: "",
+      link: "https://www.linkedin.com/company/ieeesbnsbm/",
     },
     {
-      icon: <BsTwitterX />,
-      link: "",
+      icon: <BsTiktok />,
+      link: "https://www.tiktok.com/@ieee.nsbm?_t=ZS-8uZTUJXkSDn&_r=1",
     },
     {
       icon: <BsInstagram />,
-      link: "",
+      link: "https://www.instagram.com/ieee_nsbm",
+    },
+    {
+      icon: <BsWhatsapp />,
+      link: "https://whatsapp.com/channel/0029VabVvsmBvvsZZQGk0X0a",
     },
     {
       icon: <BsYoutube />,
-      link: "",
+      link: "https://youtube.com/@ieeensbm?si=Yyfx7KasMI1WqykP",
     },
   ];
 
