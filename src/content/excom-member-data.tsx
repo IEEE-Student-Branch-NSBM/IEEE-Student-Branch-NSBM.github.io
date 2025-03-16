@@ -7,8 +7,8 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/Geeth-induwara.png") as StaticImageData,
     title: "Chairperson - IEEE Student Branch",
-    linkdInURL: "",
-    facebookURL: "",
+    linkdInURL: "https://www.linkedin.com/in/geethinduwara/",
+    facebookURL: "https://web.facebook.com/geethinduwara.online",
     role: "chairperson",
     category: "sb",
   },
@@ -60,8 +60,8 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/sithum-sankajith.png") as StaticImageData,
     title: "Treasurer",
-    linkdInURL: "",
-    facebookURL: "",
+    linkdInURL: "https://www.linkedin.com/in/sithum-sankajith",
+    facebookURL: "https://facebook.com/sithum.sankajith.1",
     category: "sb",
   },
   {
@@ -70,7 +70,7 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/thilarah-gunarathne.png") as StaticImageData,
     title: "Assistant Secretary",
-    linkdInURL: "",
+    linkdInURL: "https://www.linkedin.com/in/larah-gunarathne-6617a230a",
     facebookURL: "",
     category: "sb",
   },
@@ -81,8 +81,8 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/kumuditha-ranasinghe.png") as StaticImageData,
     title: "Web Master",
-    linkdInURL: "",
-    facebookURL: "",
+    linkdInURL: "https://www.linkedin.com/in/kumuditha-ranasinghe-078a23254",
+    facebookURL: "https://www.facebook.com/kumuditha.ranasinhge.5",
     category: "sb",
   },
   {
@@ -91,8 +91,8 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/dasun-sri-nethmal.png") as StaticImageData,
     title: "Designer",
-    linkdInURL: "",
-    facebookURL: "",
+    linkdInURL: "www.linkedin.com/in/dasun-sri-nethmal-7b3023268",
+    facebookURL: "https://web.facebook.com/dasunsri.nethmal.21/",
     category: "sb",
   },
   {
@@ -101,8 +101,8 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/ravindu-rajapaksha.png") as StaticImageData,
     title: "Event Coordinator",
-    linkdInURL: "",
-    facebookURL: "",
+    linkdInURL: "https://www.linkedin.com/in/ravindu-rajapaksha-9b4415308",
+    facebookURL: "https://www.facebook.com/share/19omvwreNj/?mibextid=wwXIfr",
     category: "sb",
   },
   {
@@ -111,8 +111,8 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/sisila-dhevasiri.png") as StaticImageData,
     title: "Media Coordinator",
-    linkdInURL: "",
-    facebookURL: "",
+    linkdInURL: "https://www.linkedin.com/in/sisila-dhevasiri",
+    facebookURL: "https://www.facebook.com/share/19zH98Xrie/?mibextid=wwXIfr",
     category: "sb",
   },
   {
@@ -121,8 +121,8 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/hiruni-athukorala.png") as StaticImageData,
     title: "Volunteer Coordinator",
-    linkdInURL: "",
-    facebookURL: "",
+    linkdInURL: "https://www.linkedin.com/in/hiruni-athukorala",
+    facebookURL: "https://www.facebook.com/share/1ABbrZf6Gx/?mibextid=wwXIfr",
     category: "sb",
   },
   {
@@ -131,8 +131,8 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/naveesha-thathsarani.png") as StaticImageData,
     title: "Excom member",
-    linkdInURL: "",
-    facebookURL: "",
+    linkdInURL: "https://www.linkedin.com/in/naveesha-thathsarani-77305427b",
+    facebookURL: "https://www.facebook.com/share/1AaQcKYFqZ/",
     category: "sb",
   },
   {
@@ -141,8 +141,8 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/sakuni-sirimanna.png") as StaticImageData,
     title: "Excom member",
-    linkdInURL: "",
-    facebookURL: "",
+    linkdInURL: "https://www.linkedin.com/in/sakuni-sirimanna-56a775223",
+    facebookURL: "https://www.facebook.com/share/1CnUa3Yu1B/",
     category: "sb",
   },
   {
@@ -151,8 +151,8 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/vilanya-udukumbura.png") as StaticImageData,
     title: "Excom member",
-    linkdInURL: "",
-    facebookURL: "",
+    linkdInURL: "https://www.linkedin.com/in/vilanya-udukumbura-b82500255",
+    facebookURL: "https://www.facebook.com/share/1USkRmMUtj/?mibextid=wwXIfr",
     category: "sb",
   },
   {
@@ -161,8 +161,9 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/hashini-wickramarachchi.png") as StaticImageData,
     title: "Excom member",
-    linkdInURL: "",
-    facebookURL: "",
+    linkdInURL:
+      "https://www.linkedin.com/in/hashini-wickramaarachchi-514691255",
+    facebookURL: "https://www.facebook.com/share/12G9S54hU4u/",
     category: "sb",
   },
   {
@@ -171,7 +172,7 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/vihangi-yapa.png") as StaticImageData,
     title: "Excom member",
-    linkdInURL: "",
+    linkdInURL: "https://www.linkedin.com/in/vihangi-yapa-2686a031b",
     facebookURL: "",
     category: "sb",
   },
@@ -181,8 +182,8 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/dasunika-yapabandara.png") as StaticImageData,
     title: "Vice Chair - FOC",
-    linkdInURL: "",
-    facebookURL: "",
+    linkdInURL: "https://www.linkedin.com/in/dasunika-yapabandara",
+    facebookURL: "https://www.facebook.com/share/1GbsZLLS6m/",
     category: "wie",
   },
   {
@@ -191,7 +192,7 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/linaya-gunawardena.png") as StaticImageData,
     title: "Vice Chair- FOE",
-    linkdInURL: "",
+    linkdInURL: "https://www.linkedin.com/in/linayagunawardena",
     facebookURL: "",
     category: "wie",
   },
@@ -211,8 +212,8 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/thathsarani-dhalanjala.png") as StaticImageData,
     title: "Assistant Secretary",
-    linkdInURL: "",
-    facebookURL: "",
+    linkdInURL: "https://www.linkedin.com/in/thathsarani-dhalanjala",
+    facebookURL: "https://www.facebook.com/share/1XbQnFxSbA/",
     category: "wie",
   },
   {
@@ -221,8 +222,8 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/navodya-hansini.png") as StaticImageData,
     title: "Assistant Treasurer",
-    linkdInURL: "",
-    facebookURL: "",
+    linkdInURL: "https://www.linkedin.com/in/navodya-hansini-b556b2240",
+    facebookURL: "https://web.facebook.com/profile.php?id=100078690765652",
     category: "wie",
   },
   {
@@ -271,8 +272,10 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/jasmi-pavithra.png") as StaticImageData,
     title: "Secretary",
-    linkdInURL: "",
-    facebookURL: "",
+    linkdInURL:
+      "https://www.facebook.com/profile.php?id=100090868064528&mibextid=ZbWKwL",
+    facebookURL:
+      "https://www.linkedin.com/in/alankarage-jasmi-pavithra-b11099251/",
     category: "cs",
   },
   {
@@ -291,8 +294,8 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/tharundi-pawani.png") as StaticImageData,
     title: "Assistant Secretary",
-    linkdInURL: "",
-    facebookURL: "",
+    linkdInURL: "http://linkedin.com/in/tharundi-pawani-8b7578328",
+    facebookURL: "https://www.facebook.com/share/19n2v99JSq/?mibextid=wwXIfr",
     category: "cs",
   },
   {
@@ -301,7 +304,7 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/nipuni-theekshana.png") as StaticImageData,
     title: "Volunter Coordinator",
-    linkdInURL: "",
+    linkdInURL: "https://www.linkedin.com/in/nipuni-theekshana-647753315",
     facebookURL: "",
     category: "cs",
   },
@@ -311,8 +314,8 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/lahiru-ediriweera.png") as StaticImageData,
     title: "Event Coordinator",
-    linkdInURL: "",
-    facebookURL: "",
+    linkdInURL: "https://www.linkedin.com/in/lahiru-n-ediriweera",
+    facebookURL: "https://www.facebook.com/share/1JCqxBjgVV/",
     category: "cs",
   },
   {
@@ -321,7 +324,7 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/dilmi-manodhya.png") as StaticImageData,
     title: "Industry Coordinator",
-    linkdInURL: "",
+    linkdInURL: "https://www.linkedin.com/in/dilmi-manodya-b6b51b31b",
     facebookURL: "",
     category: "cs",
   },
@@ -331,8 +334,8 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/tharindu-ethpatiyawa.png") as StaticImageData,
     title: "Media Coordinator",
-    linkdInURL: "",
-    facebookURL: "",
+    linkdInURL: "https://www.linkedin.com/in/tharindu-vishwajith-09n",
+    facebookURL: "https://www.facebook.com/tharinduVish",
     category: "cs",
   },
   {
@@ -341,8 +344,8 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/dasun-sri-nethmal.png") as StaticImageData,
     title: "Creative Content Committee Lead",
-    linkdInURL: "",
-    facebookURL: "",
+    linkdInURL: "www.linkedin.com/in/dasun-sri-nethmal-7b3023268",
+    facebookURL: "https://web.facebook.com/dasunsri.nethmal.21/",
     category: "cs",
   },
   {
@@ -351,7 +354,7 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/yasiru-dharmathilaka.png") as StaticImageData,
     title: "Development Committee Lead",
-    linkdInURL: "",
+    linkdInURL: "https://www.linkedin.com/in/yasiru-dharmathilaka",
     facebookURL: "",
     category: "cs",
   },
@@ -361,7 +364,7 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/sasindu-nilupul.png") as StaticImageData,
     title: "Research Committee Lead",
-    linkdInURL: "",
+    linkdInURL: "https://www.linkedin.com/in/sasindu-abhayarathna-104a492b4",
     facebookURL: "",
     category: "cs",
   },
@@ -371,8 +374,8 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/anuja-rathnayaka.png") as StaticImageData,
     title: "Creative Content Committee Member",
-    linkdInURL: "",
-    facebookURL: "",
+    linkdInURL: "https://www.linkedin.com/in/anujarathnayaka",
+    facebookURL: "https://facebook.com/ItsMe.AnuWa/",
     category: "cs",
   },
   {
@@ -391,7 +394,7 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/manuja-demin.png") as StaticImageData,
     title: "Creative Content Committee Member",
-    linkdInURL: "",
+    linkdInURL: "https://lk.linkedin.com/in/manuja-demin-908749283",
     facebookURL: "",
     category: "cs",
   },
@@ -401,8 +404,8 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/ometh-abeyrathne.png") as StaticImageData,
     title: "Development Committee Member",
-    linkdInURL: "",
-    facebookURL: "",
+    linkdInURL: "https://www.linkedin.com/in/ometh-abeyrathne-a457191b8",
+    facebookURL: "https://www.facebook.com/share/15ccpUETvc/",
     category: "cs",
   },
   {
@@ -411,7 +414,7 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/navindu-disanayaka.png") as StaticImageData,
     title: "Development Committee Member",
-    linkdInURL: "",
+    linkdInURL: "https://www.linkedin.com/in/navindu-ashen-115407252",
     facebookURL: "",
     category: "cs",
   },
@@ -421,8 +424,8 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/nipun-avishka.png") as StaticImageData,
     title: "Development Committee Member",
-    linkdInURL: "",
-    facebookURL: "",
+    linkdInURL: "https://www.linkedin.com/in/nipun-avishka-de-zoysa",
+    facebookURL: "https://www.facebook.com/share/19Gx4onYs4/",
     category: "cs",
   },
   {
@@ -431,7 +434,7 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/navodhya-senali.png") as StaticImageData,
     title: "Research Committee Member",
-    linkdInURL: "",
+    linkdInURL: "https://www.linkedin.com/in/navodhya-senali-85a40b332/",
     facebookURL: "",
     category: "cs",
   },
@@ -441,8 +444,8 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/malki-munasinghe.png") as StaticImageData,
     title: "Research Committee Member",
-    linkdInURL: "",
-    facebookURL: "",
+    linkdInURL: "https://www.linkedin.com/in/malki-munasinghe-732126325",
+    facebookURL: "https://www.facebook.com/share/1N59bH5TxL/",
     category: "cs",
   },
   {
@@ -451,8 +454,8 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/sineth-hasintha.png") as StaticImageData,
     title: "Research Committee Member",
-    linkdInURL: "",
-    facebookURL: "",
+    linkdInURL: "https://www.linkedin.com/in/sineth-hasintha-273500303",
+    facebookURL: "https://www.facebook.com/share/1Dinzs2Gu7/",
     category: "cs",
   },
   {
@@ -461,7 +464,7 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/lakindu-cabral.png") as StaticImageData,
     title: "Research Committee Member",
-    linkdInURL: "",
+    linkdInURL: "https://www.linkedin.com/in/lakindu-cabral-ba97b5321",
     facebookURL: "",
     category: "cs",
   },
@@ -481,8 +484,8 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/udara-rathnapala.png") as StaticImageData,
     title: "Research Committee Members",
-    linkdInURL: "",
-    facebookURL: "",
+    linkdInURL: "https://www.linkedin.com/in/udara-rathnapala/",
+    facebookURL: "https://www.facebook.com/Ru.ukv20?mibextid=JRoKGi",
     category: "cs",
   },
   {
@@ -491,8 +494,9 @@ export const members = [
     image:
       require("@/assets/bc-and-excom/excom/2025/prabani-vinodya.png") as StaticImageData,
     title: "Research Committee Member",
-    linkdInURL: "",
-    facebookURL: "",
+    linkdInURL: "https://www.linkedin.com/in/prabani-vinodya-2b5255326/",
+    facebookURL:
+      "https://www.facebook.com/profile.php?id=61559740304052&mibextid=ZbWKwL",
     category: "cs",
   },
   // {
