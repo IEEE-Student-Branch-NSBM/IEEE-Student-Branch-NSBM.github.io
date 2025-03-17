@@ -40,7 +40,7 @@ const EventCard = ({ category }: { category?: string }) => {
                       <Image
                         src={event.image}
                         alt={event.title}
-                        layout="fill"
+                        objectFit="cover"
                       />
                     </div>
 

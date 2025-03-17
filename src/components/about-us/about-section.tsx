@@ -50,9 +50,6 @@ function AboutSection({
         <span style={{ color: firstTitleColor }}>{firstTitle}</span>{" "}
         <span style={{ color: secondTitleColor }}>{secondTitle}</span>
       </p>
-      <p className="text-2xl text-center mb-6 font-medium text-gray-600x">
-        {subtitle}
-      </p>
       <div className="flex flex-col m-auto w-full md:flex-row">
         {imagePosition === "left" && (
           <div className="order-last md:order-first relative w-full md:w-1/4 min-h-[200px] md:mr-4">
@@ -66,9 +63,10 @@ function AboutSection({
           </div>
         )}
         <div className="md:w-3/4">
-          <p className="text-lg font-normal text-center md:text-justify">
-            {description}
+          <p className="md:text-justify text-center text-2xl mb-6 font-medium text-gray-600x">
+            {subtitle}
           </p>
+          <p className="text-lg font-normal  md:text-justify">{description}</p>
         </div>
         {imagePosition === "right" && (
           <div className="order-last relative w-full md:w-1/4 min-h-[200px] md:ml-4">

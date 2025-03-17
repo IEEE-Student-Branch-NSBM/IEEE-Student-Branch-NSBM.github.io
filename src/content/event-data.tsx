@@ -5,7 +5,7 @@ export const events = [
     title: "Duothan 4.0",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempora laborum consequatur illum, earum iusto cumque odio! Ab rerum nam, facere delectus consequuntur in aspernatur perspiciatis quidem perferendis nesciunt, voluptate eius magnam quo quis quos error! Fuga, quibusdam eius reiciendis accusamus veritatis, magni inventore perspiciatis ad quisquam dolore laborum facilis.",
-    image: require("@/assets/placeholder.png") as StaticImageData,
+    image: require("@/assets/events-images/duothan4.0.jpg") as StaticImageData,
     link: "duothan-4",
     category: "cs",
   },
