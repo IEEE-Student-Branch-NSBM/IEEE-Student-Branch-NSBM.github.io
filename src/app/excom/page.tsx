@@ -36,16 +36,6 @@ export default function Excom() {
           IEEE STUDENT BRANCH
         </button>
         <button
-          onClick={() => setActiveCategory("wie")}
-          className={`px-6 py-3 rounded-lg text-white md:text-2xl transition-colors ${
-            activeCategory === "wie"
-              ? "bg-wieLight hover:bg-wieLight"
-              : "bg-wieDark hover:bg-wieLight"
-          }`}
-        >
-          WIE AFFINITY GROUP
-        </button>
-        <button
           onClick={() => setActiveCategory("cs")}
           className={`px-6 py-3 rounded-lg text-white md:text-2xl transition-colors ${
             activeCategory === "cs"
@@ -54,6 +44,16 @@ export default function Excom() {
           }`}
         >
           CS STUDENT CHAPTER
+        </button>
+        <button
+          onClick={() => setActiveCategory("wie")}
+          className={`px-6 py-3 rounded-lg text-white md:text-2xl transition-colors ${
+            activeCategory === "wie"
+              ? "bg-wieLight hover:bg-wieLight"
+              : "bg-wieDark hover:bg-wieLight"
+          }`}
+        >
+          WIE AFFINITY GROUP
         </button>
       </div>
       <Tabs
