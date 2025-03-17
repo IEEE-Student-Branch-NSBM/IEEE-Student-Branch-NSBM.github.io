@@ -1,6 +1,6 @@
 import IeeeCsColorBlackImage from "@/assets/ieee-cs-colored-black.png";
 import IeeeSbLogoImage from "@/assets/ieee-sb-new-colored.png";
-import WieLogoImage from "@/assets/wie-colored.png";
+import WieLogoImage from "@/assets/wie-logo-bar-colored.png";
 import {
   Card,
   CardDescription,
@@ -14,8 +14,8 @@ import { TbTargetArrow } from "react-icons/tb";
 
 const VisionMissionSection = () => {
   return (
-    <div className="container mx-auto max-w-[1170px] flex flex-col justify-center items-center">
-      <div className="max-w-[300px] sm:max-w-[1170px] flex flex-col sm:flex-row justify-center gap-5 ">
+    <div className="container mx-auto max-w-[1170px] flex flex-col justify-center items-center px-5 xl:px-0">
+      <div className="sm:max-w-[1170px] flex flex-col sm:flex-row justify-center gap-5 ">
         <Card className="shadow-lg flex-1 ">
           <CardHeader>
             <CardTitle className="flex items-center gap-3 text-lg font-bold">
@@ -54,17 +54,15 @@ const VisionMissionSection = () => {
         </Card>
       </div>
 
-      <div className="max-w-[300px] sm:max-w-[900px] flex flex-col p-5 sm:flex-row justify-center items-center gap-5">
+      <div className="sm:max-w-[1170px] flex flex-col px-5 pt-8 sm:flex-row justify-center items-center gap-5">
         <div className="flex-1 scale-110">
           <Image src={IeeeSbLogoImage} alt="SBLogo" />
         </div>
-
-        <div className="flex-1 scale-50">
-          <Image src={WieLogoImage} alt="WIELogo" />
-        </div>
-
-        <div className="flex-1 w-4/5 sm:w-1/3">
+        <div className="flex-1 scale-90">
           <Image src={IeeeCsColorBlackImage} alt="IEEE CS Logo" />
+        </div>
+        <div className="flex-1 scale-110">
+          <Image src={WieLogoImage} alt="WIELogo" />
         </div>
       </div>
     </div>

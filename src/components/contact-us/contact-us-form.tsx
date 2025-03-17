@@ -42,11 +42,11 @@ const ContactUs = () => {
   }
 
   return (
-    <div className="container mx-auto p-4 lg:p-4">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-5 md:mx-8 lg:mx-8  ">
+    <div className="container mx-auto ">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mx-4 md:mx-0">
         <Card className="w-full">
           <CardHeader>
-            <CardTitle className="text-2xl font-bold">
+            <CardTitle className="text-2xl font-bold text-center">
               Our friendly team wants to hear from you
             </CardTitle>
           </CardHeader>
