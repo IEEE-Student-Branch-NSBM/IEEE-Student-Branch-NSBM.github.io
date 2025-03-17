@@ -7,7 +7,8 @@ import {
   BsFacebook,
   BsInstagram,
   BsLinkedin,
-  BsTwitterX,
+  BsTiktok,
+  BsWhatsapp,
   BsYoutube,
 } from "react-icons/bs";
 import { MdEmail, MdOutlineLocationOn } from "react-icons/md";
@@ -18,23 +19,27 @@ function Footer() {
   const footerLinks = [
     {
       icon: <BsFacebook />,
-      link: "",
+      link: "https://www.facebook.com/ieeensbm",
     },
     {
       icon: <BsLinkedin />,
-      link: "",
+      link: "https://www.linkedin.com/company/ieeesbnsbm/",
     },
     {
-      icon: <BsTwitterX />,
-      link: "",
+      icon: <BsTiktok />,
+      link: "https://www.tiktok.com/@ieee.nsbm?_t=ZS-8uZTUJXkSDn&_r=1",
     },
     {
       icon: <BsInstagram />,
-      link: "",
+      link: "https://www.instagram.com/ieee_nsbm",
+    },
+    {
+      icon: <BsWhatsapp />,
+      link: "https://whatsapp.com/channel/0029VabVvsmBvvsZZQGk0X0a",
     },
     {
       icon: <BsYoutube />,
-      link: "",
+      link: "https://youtube.com/@ieeensbm?si=Yyfx7KasMI1WqykP",
     },
   ];
 
@@ -65,11 +70,11 @@ function Footer() {
           <div className="footer-col-content">
             <h3 className="footer-col-title">Get Started</h3>
             <div className="footer-col-navs-container">
-              <Link href="#">HOME</Link>
-              <Link href="#">EVENTS</Link>
-              <Link href="#">BLOG</Link>
-              <Link href="#">EXECUTIVE COMMITTEE</Link>
-              <Link href="#">MEMBERSHIP</Link>
+              <Link href="/">HOME</Link>
+              <Link href="/events-page">EVENTS</Link>
+              <Link href="/blog">BLOG</Link>
+              <Link href="/excom">EXECUTIVE COMMITTEE</Link>
+              <Link href="/join-us">MEMBERSHIP</Link>
             </div>
           </div>
         </div>
