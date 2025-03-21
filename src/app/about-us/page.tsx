@@ -1,6 +1,6 @@
 import CSLogo from "@/assets/ieee-cs-colored-black.png";
-import SBLogo from "@/assets/ieee-sb-new-colored.png";
 import JoinUsImage from "@/assets/join-us.png";
+import SBLogo from "@/assets/logo new.png";
 import WIELogo from "@/assets/wie-logo-bar-colored.png";
 import AboutSection from "@/components/about-us/about-section";
 import { Button } from "@/components/ui/button";

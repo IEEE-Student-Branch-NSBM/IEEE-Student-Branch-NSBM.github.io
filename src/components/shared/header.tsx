@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import { AnchorHTMLAttributes } from "react";
 
 import IeeeLogoWhite from "@/assets/ieee-logo-white.png";
-import IeeeSbWhiteImage from "@/assets/ieee-sb-white.png";
+import IeeeSbWhiteImage from "@/assets/logo new white.png";
 import { Separator } from "@/components/ui/separator";
 import { ROUTES } from "@/constants/routes.constants";
 

@@ -420,16 +420,6 @@ export const members = [
   },
   {
     year: 2025,
-    name: "Nipun Avishka",
-    image:
-      require("@/assets/bc-and-excom/excom/2025/nipun-avishka.png") as StaticImageData,
-    title: "Development Committee Member",
-    linkdInURL: "https://www.linkedin.com/in/nipun-avishka-de-zoysa",
-    facebookURL: "https://www.facebook.com/share/19Gx4onYs4/",
-    category: "cs",
-  },
-  {
-    year: 2025,
     name: "Navodhya Senali",
     image:
       require("@/assets/bc-and-excom/excom/2025/navodhya-senali.png") as StaticImageData,
