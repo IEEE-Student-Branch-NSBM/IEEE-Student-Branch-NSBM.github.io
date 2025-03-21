@@ -1,5 +1,5 @@
 import IeeeCsColorBlackImage from "@/assets/ieee-cs-colored-black.png";
-import IeeeSbLogoImage from "@/assets/ieee-sb-new-colored.png";
+import IeeeSbLogoImage from "@/assets/logo new.png";
 import WieLogoImage from "@/assets/wie-logo-bar-colored.png";
 import {
   Card,
@@ -58,7 +58,7 @@ const VisionMissionSection = () => {
         <div className="flex-1 scale-110">
           <Image src={IeeeSbLogoImage} alt="SBLogo" />
         </div>
-        <div className="flex-1 scale-90">
+        <div className="flex-1 scale-90 ml-0 md:ml-1">
           <Image src={IeeeCsColorBlackImage} alt="IEEE CS Logo" />
         </div>
         <div className="flex-1 scale-110">
