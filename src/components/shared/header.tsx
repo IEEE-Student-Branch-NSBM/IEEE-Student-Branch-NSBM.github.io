@@ -4,8 +4,10 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { AnchorHTMLAttributes } from "react";
 
+import CsLogoImage from "@/assets/ieee-cs-white-logo.png";
 import IeeeLogoWhite from "@/assets/ieee-logo-white.png";
 import IeeeSbWhiteImage from "@/assets/logo new white.png";
+import WieLogoImage from "@/assets/wie-white.png";
 import { Separator } from "@/components/ui/separator";
 import { ROUTES } from "@/constants/routes.constants";
 
@@ -122,6 +124,17 @@ function Header() {
       "/cs": "bg-csLight",
     }[pathname] || "bg-primaryLight";
 
+  const getLogo = () => {
+    switch (pathname) {
+      case "/wie":
+        return WieLogoImage;
+      case "/cs":
+        return CsLogoImage;
+      default:
+        return IeeeSbWhiteImage;
+    }
+  };
+
   return (
     <header>
       <GlobalNav />
@@ -145,9 +158,9 @@ function Header() {
 
         <div className="md:flex hidden flex-row gap-2 items-center mx-auto text-white max-w-[1170px] grow py-7 justify-between">
           <Image
-            src={IeeeSbWhiteImage}
-            alt="IEEE SB Logo"
-            height={70}
+            src={getLogo()}
+            alt="Header Logo"
+            height={75}
             quality={10}
             className="max-w-md"
           />
