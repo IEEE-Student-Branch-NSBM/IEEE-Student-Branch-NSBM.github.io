@@ -5,10 +5,10 @@ import HeroCarousel from "@/components/index/hero-section";
 import ShapeFuture from "@/components/index/shape-future";
 import ExcomSection from "@/components/wie-cs/excom-section";
 import PageIntro from "@/components/wie-cs/page-intro";
-import PastExcomSection from "@/components/wie-cs/past-excom-section";
+// import PastExcomSection from "@/components/wie-cs/past-excom-section";
 import React from "react";
 
-import DVC from "@/assets/bc-and-excom/dvc.png";
+// import DVC from "@/assets/bc-and-excom/dvc.png";
 
 function page() {
   const carrouselImages = [
