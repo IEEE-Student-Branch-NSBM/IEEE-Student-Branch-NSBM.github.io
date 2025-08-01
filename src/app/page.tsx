@@ -1,11 +1,10 @@
 import React from "react";
 
-import allexcom from "@/assets/hero-images/all-excom.jpg";
-import duothanImg from "@/assets/hero-images/duothan4.0.jpg";
-import duothanImg2 from "@/assets/hero-images/duothan4.1.jpg";
-import duothanImg4 from "@/assets/hero-images/duothan4.3.jpg";
-import skillshare from "@/assets/hero-images/skill-share.jpg";
-
+import csexcom from "@/assets/hero-images/cs-excom.jpg";
+import allexcom from "@/assets/hero-images/full-excom.jpg";
+import sbexcom from "@/assets/hero-images/sb-excom.jpg";
+import subcomm from "@/assets/hero-images/subcom.jpg";
+import wieexcom from "@/assets/hero-images/wie-excom.jpg";
 import BranchCounsellors from "@/components/index/branch-counsellors";
 import EventCard from "@/components/index/event-card";
 import ExecutiveCommittee from "@/components/index/executive-committee";
@@ -17,24 +16,24 @@ import VisionMissionSection from "@/components/index/vm-section";
 export default function Home() {
   const cimages = [
     {
-      image: duothanImg,
+      image: allexcom,
       text: "Discover a community where ideas meet innovation, and creativity knows no limits Where technology.",
     },
     {
-      image: duothanImg2,
+      image: subcomm,
+      text: "Discover a community where ideas meet innovation, and creativity knows no limits Where technology.",
+    },
+    {
+      image: sbexcom,
       text: "Empowering students to shape the future, one project at a time A place for curious minds and bold thinkers to connect and create.",
     },
     {
-      image: allexcom,
+      image: csexcom,
       text: "Pushing boundaries, embracing challenges, and building a brighter future together. Innovation starts here, where students turn vision into reality.",
     },
     {
-      image: duothanImg4,
+      image: wieexcom,
       text: "Explore, create, and lead with a community that shares your drive Where every challenge is an opportunity to grow and inspire.",
-    },
-    {
-      image: skillshare,
-      text: "Building skills, making connections, and transforming ideas into action Redefining innovation through teamwork, passion, and dedication.",
     },
   ];
   return (
@@ -44,6 +43,7 @@ export default function Home() {
         gradient="from-primaryLight via-primaryLight"
         title="Welcome to IEEE Student Branch of NSBM"
       />
+
       <VisionMissionSection />
       <EventCard />
       <BranchCounsellors />

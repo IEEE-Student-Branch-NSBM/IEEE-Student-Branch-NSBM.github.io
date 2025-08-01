@@ -1,10 +1,8 @@
 import CSLogo from "@/assets/ieee-cs-colored-black.png";
-import JoinUsImage from "@/assets/join-us.png";
 import SBLogo from "@/assets/logo new.png";
 import WIELogo from "@/assets/wie-logo-bar-colored.png";
 import AboutSection from "@/components/about-us/about-section";
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import ShapeFuture from "@/components/index/shape-future";
 
 export default function About() {
   return (
@@ -84,31 +82,7 @@ As part of IEEE’s extensive network, the IEEE Student Branch of NSBM connects 
 The IEEE Computer Society sponsors workshops and conferences, publishes a variety of peer-reviewed literature, operates technical committees, and develops IEEE computing standards. It supports more than 200 chapters worldwide and participates in educational activities at all levels of the profession, including distance learning, accreditation of higher education programs in computer science, and professional certification in software engineering.`}
         />
       </div>
-      <div className="flex m-auto max-w-[1170px] lg:flex-row flex-col justify-between w-full px-4 lg:px-0 gap-10">
-        <Image
-          width={600}
-          height={123}
-          src={JoinUsImage}
-          alt="ieee-footer-logo"
-          className="min-h-[300] flex m-auto"
-        />
-
-        <div className="flex flex-col m-auto space-y-2 max-w-[520px]">
-          <h2 className="font-bold md:text-[2.653rem] text-[2.253rem] text-opacity-85  ">
-            SHAPE THE FUTURE WITH US
-          </h2>
-
-          <p className="text-lg text-opacity-85 ">
-            Creating isn’t just what we do; it’s how we think. We’re a community
-            of creators, problem-solvers, and innovators, all eager to explore
-            new ideas together. Ready to make your mark with us?
-          </p>
-
-          <Button className="mt-4 px-12 py-2 bg-blue-600 text-white bg-[#00629b] rounded hover:bg-blue-700 transition-colors  ">
-            Join us
-          </Button>
-        </div>
-      </div>
+      <ShapeFuture />
     </div>
   );
 }

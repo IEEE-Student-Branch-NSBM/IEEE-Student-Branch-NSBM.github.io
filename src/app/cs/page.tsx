@@ -1,26 +1,30 @@
 "use client";
-import duothanImg from "@/assets/hero-images/duothan4.0.jpg";
+import csexcom from "@/assets/hero-images/cs-excom.jpg";
 import EventCard from "@/components/index/event-card";
 import HeroCarousel from "@/components/index/hero-section";
 import ShapeFuture from "@/components/index/shape-future";
 import ExcomSection from "@/components/wie-cs/excom-section";
 import PageIntro from "@/components/wie-cs/page-intro";
-import PastExcomSection from "@/components/wie-cs/past-excom-section";
+// import PastExcomSection from "@/components/wie-cs/past-excom-section";
 import React from "react";
 
-import DVC from "@/assets/bc-and-excom/dvc.png";
+// import DVC from "@/assets/bc-and-excom/dvc.png";
 
 function page() {
   const carrouselImages = [
     {
-      image: duothanImg,
+      image: csexcom,
       text: "Test",
     },
   ];
 
   return (
-    <>
-      <HeroCarousel cimages={carrouselImages} gradient="from-csLight" />
+    <div className="flex flex-col gap-20">
+      <HeroCarousel
+        cimages={carrouselImages}
+        title="Welcome to IEEE Computer Society Student Branch Chapter of NSBM"
+        gradient="from-csLight via-csLight"
+      />
       <PageIntro
         title="Computer Society"
         textColor="text-csLight"
@@ -35,9 +39,9 @@ function page() {
         category="cs"
         description="The Executive Committee of IEEE Computer Society will deliver organizational guidance to the community. Join the IEEE Computer Society, a leading organization for anyone engaged in computers and information technology to expand their knowledge."
       />
-      <PastExcomSection title="Past Executive Committee" imgUrl={DVC} />
+      {/* <PastExcomSection title="Past Executive Committee" imgUrl={DVC} /> */}
       <ShapeFuture />
-    </>
+    </div>
   );
 }
 

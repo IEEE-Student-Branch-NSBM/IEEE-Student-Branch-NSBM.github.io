@@ -54,7 +54,7 @@ const VisionMissionSection = () => {
         </Card>
       </div>
 
-      <div className="sm:max-w-[1170px] flex flex-col px-5 pt-8 sm:flex-row justify-center items-center gap-5">
+      <div className="sm:max-w-[1170px] flex flex-col px-5 pt-12 sm:flex-row justify-center items-center gap-5">
         <div className="flex-1 scale-110">
           <Image src={IeeeSbLogoImage} alt="SBLogo" />
         </div>

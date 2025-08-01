@@ -32,7 +32,7 @@ function ExcomSection({
     }
   };
   return (
-    <div className="container mx-auto max-w-[1170px] px-4 mt-14 flex flex-col gap-4">
+    <div className="container mx-auto max-w-[1170px] px-4  flex flex-col gap-4">
       <h1 className="text-4xl lg:text-6xl font-bold text-center">{title}</h1>
       <p className="text-center">{description}</p>
       <div className="flex flex-wrap justify-center gap-4">

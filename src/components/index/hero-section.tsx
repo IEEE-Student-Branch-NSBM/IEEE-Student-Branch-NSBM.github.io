@@ -26,37 +26,40 @@ export default function HeroCarousel({
   title,
 }: HeroCarouselProps) {
   const plugin = React.useRef(
-    Autoplay({ delay: 5000, stopOnInteraction: true }),
+    Autoplay({ delay: 5000, stopOnInteraction: false }),
   );
 
   return (
     <Carousel plugins={[plugin.current]} className="w-full">
-      <CarouselContent>
+      <CarouselContent className="h-full">
         {cimages.map((item, index) => (
-          <CarouselItem key={index} className="relative">
-            <div className="w-full xl:h-[85vh] aspect-video">
+          <CarouselItem
+            key={index}
+            className="relative md:h-screen aspect-video"
+          >
+            <div className="w-full ">
               <Image
                 src={item.image}
                 alt={`carousel image ${index + 1}`}
                 quality={70}
-                layout="fill"
-                className="object-cover object-center aspect-video"
+                className="object-cover"
+                priority={index === 0}
               />
               <div
                 className={
-                  "absolute bottom-0 w-full h-[170px] bg-gradient-to-t pb-5 " +
+                  "absolute bottom-0 w-full h-20 md:h-[170px] bg-gradient-to-t pb-5 " +
                   gradient
                 }
               >
                 {title && (
-                  <div className="absolute bottom-0 flex flex-row justify-center w-full pb-5">
-                    <div className="max-w-[1170px] w-full px-5 xl:px-0">
-                      <h1 className="font-semibold text-white xl:text-3xl text-base pb-2">
+                  <div className="absolute bottom-0 flex flex-row justify-center w-full pb-1 items-center md:h-16">
+                    <div className="md:max-w-[1170px] w-full mx-4 xl:px-0 text-center pr-4 md:pr-0">
+                      <h1 className="font-semibold text-white xl:text-3xl text-base ">
                         {title}
                       </h1>
-                      <p className="text-xs xl:text-base text-white">
+                      {/* <p className="text-xs xl:text-base text-white">
                         {item.text}
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 )}

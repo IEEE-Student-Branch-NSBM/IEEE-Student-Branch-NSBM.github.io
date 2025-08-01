@@ -1,3 +1,5 @@
+import fullexcom from "@/assets/hero-images/full-excom.jpg";
+import subcom from "@/assets/hero-images/subcom.jpg";
 import Image from "next/image";
 
 export default function joinUs() {
@@ -19,10 +21,10 @@ export default function joinUs() {
 
         <div className="lg:w-2/4">
           <Image
-            src="https://placehold.co/900x350.png"
-            width={900}
-            height={350}
-            alt="Volenteer image"
+            src={fullexcom}
+            width={800}
+            height={300}
+            alt="full excom image"
           />
         </div>
       </div>
@@ -31,12 +33,7 @@ export default function joinUs() {
 
       <div className="flex flex-col-reverse lg:flex-row items-center py-8 gap-2 ">
         <div className="lg:w-2/4">
-          <Image
-            src="https://placehold.co/900x350.png"
-            width={900}
-            height={350}
-            alt="Volenteer image"
-          />
+          <Image src={subcom} width={900} height={350} alt="subcom image" />
         </div>
 
         <div className="lg:w-2/4 ">

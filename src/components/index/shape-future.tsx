@@ -1,16 +1,17 @@
-import JoinUsImage from "@/assets/join-us.png";
+import JoinUsImage from "@/assets/joinus.jpg";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
 function ShapeFuture() {
   return (
-    <div className="px-5 xl:px-0">
-      <div className="flex md:flex-row flex-col justify-center gap-10 items-center xl:item-start">
+    <div className="container mx-auto max-w-[1170px] px-5 xl:px-0">
+      <div className="flex md:flex-row flex-col md:justify-start justify-center gap-10 items-center lg:item-start">
         <Image
-          width={600}
+          width={550}
           height={123}
           src={JoinUsImage}
           alt="ieee-footer-logo"
+          className="rounded-tr-[75px] rounded-br-[75px]"
         />
 
         <div className="space-y-2 max-w-[520px]">
