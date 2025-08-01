@@ -20,7 +20,11 @@ function page() {
 
   return (
     <div className="flex flex-col gap-20">
-      <HeroCarousel cimages={carrouselImages} gradient="from-csLight" />
+      <HeroCarousel
+        cimages={carrouselImages}
+        title="Welcome to IEEE Computer Society Student Branch Chapter of NSBM"
+        gradient="from-csLight via-csLight"
+      />
       <PageIntro
         title="Computer Society"
         textColor="text-csLight"

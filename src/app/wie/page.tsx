@@ -20,7 +20,11 @@ function page() {
 
   return (
     <>
-      <HeroCarousel cimages={carrouselImages} gradient="from-wieLight" />
+      <HeroCarousel
+        cimages={carrouselImages}
+        title="Welcome to IEEE Women In Engineering Affinity Group of NSBM"
+        gradient="from-wieLight via-wieLight"
+      />
       <div className="flex flex-col gap-20">
         <PageIntro
           title="Women In Engineering"
