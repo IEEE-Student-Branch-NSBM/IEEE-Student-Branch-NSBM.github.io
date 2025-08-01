@@ -52,9 +52,9 @@ export default function HeroCarousel({
                 }
               >
                 {title && (
-                  <div className="absolute bottom-0 flex flex-row justify-center w-full pb-3 h-8 md:h-16">
+                  <div className="absolute bottom-0 flex flex-row justify-center w-full pb-1 items-center md:h-16">
                     <div className="md:max-w-[1170px] w-full mx-4 xl:px-0 text-center pr-4 md:pr-0">
-                      <h1 className="font-semibold text-white xl:text-3xl text-base pb-2">
+                      <h1 className="font-semibold text-white xl:text-3xl text-base ">
                         {title}
                       </h1>
                       {/* <p className="text-xs xl:text-base text-white">
