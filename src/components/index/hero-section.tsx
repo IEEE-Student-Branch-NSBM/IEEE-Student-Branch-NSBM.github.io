@@ -33,14 +33,13 @@ export default function HeroCarousel({
     <Carousel plugins={[plugin.current]} className="w-full">
       <CarouselContent>
         {cimages.map((item, index) => (
-          <CarouselItem key={index} className="relative">
-            <div className="w-full  aspect-video">
+          <CarouselItem key={index} className="relative aspect-video">
+            <div className="w-full aspect-video">
               <Image
                 src={item.image}
                 alt={`carousel image ${index + 1}`}
                 quality={70}
-                fill
-                className="object-cover"
+                className="w-full"
               />
               <div
                 className={

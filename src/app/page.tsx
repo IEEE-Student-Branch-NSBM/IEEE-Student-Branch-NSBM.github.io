@@ -3,6 +3,7 @@ import React from "react";
 import csexcom from "@/assets/hero-images/cs-excom.jpg";
 import allexcom from "@/assets/hero-images/full-excom.jpg";
 import sbexcom from "@/assets/hero-images/sb-excom.jpg";
+import subcomm from "@/assets/hero-images/subcom.jpg";
 import wieexcom from "@/assets/hero-images/wie-excom.jpg";
 import BranchCounsellors from "@/components/index/branch-counsellors";
 import EventCard from "@/components/index/event-card";
@@ -16,6 +17,10 @@ export default function Home() {
   const cimages = [
     {
       image: allexcom,
+      text: "Discover a community where ideas meet innovation, and creativity knows no limits Where technology.",
+    },
+    {
+      image: subcomm,
       text: "Discover a community where ideas meet innovation, and creativity knows no limits Where technology.",
     },
     {
