@@ -1,5 +1,5 @@
 "use client";
-import duothanImg from "@/assets/hero-images/duothan4.0.jpg";
+import wieexcom from "@/assets/hero-images/wie-excom.jpg";
 import EventCard from "@/components/index/event-card";
 import HeroCarousel from "@/components/index/hero-section";
 import ShapeFuture from "@/components/index/shape-future";
@@ -13,7 +13,7 @@ import DVC from "@/assets/bc-and-excom/dvc.png";
 function page() {
   const carrouselImages = [
     {
-      image: duothanImg,
+      image: wieexcom,
       text: "Test",
     },
   ];
