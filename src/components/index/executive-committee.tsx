@@ -33,9 +33,8 @@ const ExecutiveCommittee = () => {
               <Image
                 src={member.image}
                 alt={member.name}
-                layout="fill"
-                objectFit="cover"
-                className="absolute inset-0 bg-gradient-to-b from-blue/50 to-blue/90"
+                fill
+                className="object-cover absolute inset-0 bg-gradient-to-b from-blue/50 to-blue/90"
               />
             </div>
 

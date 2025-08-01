@@ -52,9 +52,8 @@ const BranchCounsellors: React.FC = () => {
               <Image
                 src={counsellor.imageUrl}
                 alt={counsellor.name}
-                layout="fill"
-                objectFit="cover"
-                className="absolute inset-0 bg-gradient-to-b from-gray-400/50 to-gray-400/90"
+                fill
+                className=" object-cover absolute inset-0 bg-gradient-to-b from-gray-400/50 to-gray-400/90"
               />
             </div>
 

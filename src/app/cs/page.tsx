@@ -19,7 +19,7 @@ function page() {
   ];
 
   return (
-    <>
+    <div className="flex flex-col gap-20">
       <HeroCarousel cimages={carrouselImages} gradient="from-csLight" />
       <PageIntro
         title="Computer Society"
@@ -35,9 +35,9 @@ function page() {
         category="cs"
         description="The Executive Committee of IEEE Computer Society will deliver organizational guidance to the community. Join the IEEE Computer Society, a leading organization for anyone engaged in computers and information technology to expand their knowledge."
       />
-      <PastExcomSection title="Past Executive Committee" imgUrl={DVC} />
+      {/* <PastExcomSection title="Past Executive Committee" imgUrl={DVC} /> */}
       <ShapeFuture />
-    </>
+    </div>
   );
 }
 
