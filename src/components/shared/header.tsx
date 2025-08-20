@@ -75,7 +75,7 @@ function LocalNav() {
   const navItems = [
     ROUTES.HOME,
     // ROUTES.EVENTS,
-    ROUTES.BLOG,
+    // ROUTES.BLOG,
     ROUTES.EXCOM,
     ROUTES.ABOUT_US,
     ROUTES.CONTACT_US,
@@ -195,8 +195,8 @@ function Header() {
           />
           {[
             ROUTES.HOME,
-            ROUTES.EVENTS,
-            ROUTES.BLOG,
+            // ROUTES.EVENTS,
+            // ROUTES.BLOG,
             ROUTES.EXCOM,
             ROUTES.ABOUT_US,
             ROUTES.CONTACT_US,
