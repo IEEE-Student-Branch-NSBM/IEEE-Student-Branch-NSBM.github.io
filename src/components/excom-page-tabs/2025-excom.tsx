@@ -25,17 +25,20 @@ export default function TwentyFiveExcom({ category }: Props) {
     }
   };
   const excomCard = TwentyFiveExcom.map(
-    (member: {
-      year: number;
-      name: string;
-      image: StaticImageData;
-      category: string;
-      title: string;
-      linkdInURL: string;
-      facebookURL: string;
-    }) => (
+    (
+      member: {
+        year: number;
+        name: string;
+        image: StaticImageData;
+        category: string;
+        title: string;
+        linkdInURL: string;
+        facebookURL: string;
+      },
+      index: number,
+    ) => (
       <div
-        key={member.year}
+        key={`${member.name}-${member.title}-${index}`}
         className="flex flex-col items-center mx-5 md:m w-[300px] h-[350px] shadow-lg rounded-2xl text-center mt-10 hover:shadow-md transition-shadow duration-300"
       >
         <Image
