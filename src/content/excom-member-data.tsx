@@ -350,10 +350,20 @@ export const members = [
   },
   {
     year: 2025,
+    name: "Ometh Abeyrathne",
+    image:
+      require("@/assets/bc-and-excom/excom/2025/ometh-abeyrathne.png") as StaticImageData,
+    title: "Development Committee Co-lead",
+    linkdInURL: "https://www.linkedin.com/in/ometh-abeyrathne-a457191b8",
+    facebookURL: "https://www.facebook.com/share/15ccpUETvc/",
+    category: "cs",
+  },
+  {
+    year: 2025,
     name: "Yasiru Dharmathilaka",
     image:
       require("@/assets/bc-and-excom/excom/2025/yasiru-dharmathilaka.png") as StaticImageData,
-    title: "Development Committee Lead",
+    title: "Development Committee Co-lead",
     linkdInURL: "https://www.linkedin.com/in/yasiru-dharmathilaka",
     facebookURL: "",
     category: "cs",
@@ -396,16 +406,6 @@ export const members = [
     title: "Creative Content Committee Member",
     linkdInURL: "https://lk.linkedin.com/in/manuja-demin-908749283",
     facebookURL: "",
-    category: "cs",
-  },
-  {
-    year: 2025,
-    name: "Ometh Abeyrathne",
-    image:
-      require("@/assets/bc-and-excom/excom/2025/ometh-abeyrathne.png") as StaticImageData,
-    title: "Development Committee Member",
-    linkdInURL: "https://www.linkedin.com/in/ometh-abeyrathne-a457191b8",
-    facebookURL: "https://www.facebook.com/share/15ccpUETvc/",
     category: "cs",
   },
   {

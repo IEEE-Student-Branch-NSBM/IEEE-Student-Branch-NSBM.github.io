@@ -74,7 +74,7 @@ function GlobalNav() {
 function LocalNav() {
   const navItems = [
     ROUTES.HOME,
-    ROUTES.EVENTS,
+    // ROUTES.EVENTS,
     ROUTES.BLOG,
     ROUTES.EXCOM,
     ROUTES.ABOUT_US,
