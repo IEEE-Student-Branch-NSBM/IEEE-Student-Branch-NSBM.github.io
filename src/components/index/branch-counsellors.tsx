@@ -1,6 +1,6 @@
+import ADVISOR from "@/assets/bc-and-excom/advisor-wie.webp";
 import DVC from "@/assets/bc-and-excom/dvc.png";
 import MIC_FOC from "@/assets/bc-and-excom/mic-foc.png";
-import placeholder from "@/assets/placeholder.png";
 import Image from "next/image";
 import React from "react";
 import { Card, CardDescription, CardTitle } from "../ui/card";
@@ -29,7 +29,7 @@ const counsellors: Counsellor[] = [
   },
   {
     name: "Ms. Kaumadee Samarakoon",
-    imageUrl: placeholder,
+    imageUrl: ADVISOR,
     title: "Senior Lecturer at NSBM",
     position: "Advisor - IEEE of WIE Affinity Group of NSBM",
   },

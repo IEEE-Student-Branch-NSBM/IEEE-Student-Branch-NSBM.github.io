@@ -6,7 +6,6 @@ import sbexcom from "@/assets/hero-images/sb-excom.jpg";
 import subcomm from "@/assets/hero-images/subcom.jpg";
 import wieexcom from "@/assets/hero-images/wie-excom.jpg";
 import BranchCounsellors from "@/components/index/branch-counsellors";
-import EventCard from "@/components/index/event-card";
 import ExecutiveCommittee from "@/components/index/executive-committee";
 import Fellowship from "@/components/index/fellowship";
 import HeroCarousel from "@/components/index/hero-section";
@@ -45,7 +44,6 @@ export default function Home() {
       />
 
       <VisionMissionSection />
-      <EventCard />
       <BranchCounsellors />
       <ExecutiveCommittee />
       <Fellowship />
