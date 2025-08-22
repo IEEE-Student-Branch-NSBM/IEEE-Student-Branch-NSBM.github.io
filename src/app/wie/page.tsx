@@ -1,6 +1,6 @@
 "use client";
 import wieexcom from "@/assets/hero-images/wie-excom.jpg";
-import EventCard from "@/components/index/event-card";
+// import EventCard from "@/components/index/event-card";
 import HeroCarousel from "@/components/index/hero-section";
 import ShapeFuture from "@/components/index/shape-future";
 import ExcomSection from "@/components/wie-cs/excom-section";
@@ -36,7 +36,7 @@ function page() {
           as well as to inspiring girls to follow their academic interests to a
           career in engineering."
         />
-        <EventCard category="wie" />
+        {/* <EventCard category="wie" /> */}
         <ExcomSection
           title="Executive Committee 2025/26"
           year={2025}
