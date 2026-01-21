@@ -23,7 +23,7 @@ const ExecutiveCommittee = () => {
         Meet the Executive Committee
       </h3>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
         {filteredExcom.map((member, index) => (
           <Card
             key={index}
@@ -38,19 +38,19 @@ const ExecutiveCommittee = () => {
               />
             </div>
 
-            <div className="text-center my-5 space-y-1">
+            <div className="text-center my-5 space-y-1 flex-grow">
               <CardTitle className="text-xl font-semibold">
                 {member.name}
               </CardTitle>
               <CardDescription>{member.title}</CardDescription>
-              <div className="flex justify-center space-x-3">
-                <Link href={member.facebookURL}>
-                  <BsFacebook className="text-xl text-blue" />
-                </Link>
-                <Link href={member.linkdInURL}>
-                  <BsLinkedin className="text-xl text-blue" />
-                </Link>
-              </div>
+            </div>
+            <div className="flex justify-center space-x-3 mb-5">
+              <Link href={member.facebookURL}>
+                <BsFacebook className="text-xl text-blue" />
+              </Link>
+              <Link href={member.linkdInURL}>
+                <BsLinkedin className="text-xl text-blue" />
+              </Link>
             </div>
           </Card>
         ))}

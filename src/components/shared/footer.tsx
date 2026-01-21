@@ -85,6 +85,7 @@ function Footer() {
             <div className="footer-col-navs-container">
               <Link href="/wie">Women in Engineering</Link>
               <Link href="/cs">Computer Society</Link>
+              <Link href="/sight">SIGHT Affinity Group</Link>
             </div>
           </div>
         </div>

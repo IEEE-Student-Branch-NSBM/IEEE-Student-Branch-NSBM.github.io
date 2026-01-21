@@ -1,3 +1,4 @@
+import SightLogo from "@/assets/Sight logo.png";
 import CSLogo from "@/assets/ieee-cs-colored-black.png";
 import SBLogo from "@/assets/logo new.png";
 import WIELogo from "@/assets/wie-logo-bar-colored.png";
@@ -80,6 +81,31 @@ As part of IEEE’s extensive network, the IEEE Student Branch of NSBM connects 
           ]}
           description={`IEEE Computer Society (often abbreviated as the Computer Society or CS) is a professional society of the Institute of Electrical and Electronics Engineers (IEEE). Its purpose is "to advance the theory, practice, and application of computer and information processing science and technology" and the "professional standing of its members". The CS is the largest of 39 technical societies organised under the IEEE Technical Activities Board.
 The IEEE Computer Society sponsors workshops and conferences, publishes a variety of peer-reviewed literature, operates technical committees, and develops IEEE computing standards. It supports more than 200 chapters worldwide and participates in educational activities at all levels of the profession, including distance learning, accreditation of higher education programs in computer science, and professional certification in software engineering.`}
+        />
+      </div>
+      <div className="w-full">
+        <AboutSection
+          firstTitle="SIGHT"
+          secondTitle="Affinity Group"
+          firstTitleColor="#ba0c2f"
+          subtitle="SIGHT AFFINITY GROUP OF NSBM"
+          imageSrc={SightLogo}
+          imagePosition="left"
+          socialLinks={[
+            {
+              platform: "facebook",
+              link: "https://www.facebook.com/people/IEEE-SIGHT-Affinity-Group-of-NSBM-Green-University/61584280137221/",
+            },
+            {
+              platform: "linkedin",
+              link: "https://www.linkedin.com/company/ieee-sight-affinity-group-of-nsbm-green-university/",
+            },
+            {
+              platform: "instagram",
+              link: "https://www.instagram.com/ieeesight_nsbm",
+            },
+          ]}
+          description={`IEEE SIGHT (Special Interest Group on Humanitarian Technology) is a global community of IEEE members and volunteers dedicated to addressing humanitarian challenges through technology. The SIGHT Affinity Group of NSBM (SIGHT NSBM) is one of the student branch chapters of the global network that focuses on using technology for social good and making a positive impact on society.`}
         />
       </div>
       <ShapeFuture />

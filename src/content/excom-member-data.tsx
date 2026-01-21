@@ -36,6 +36,18 @@ export const members = [
   },
   {
     year: 2025,
+    name: "Anusara Sugeeshwara",
+    image:
+      require("@/assets/bc-and-excom/excom/2025/anusara-sugeeshwara.png") as StaticImageData,
+    title: "Chairperson - IEEE SIGHT",
+    linkdInURL: "https://www.linkedin.com/in/anusara-sugeeshwara/",
+    facebookURL:
+      "https://www.facebook.com/profile.php?id=100071590234977&sk=about",
+    role: "chairperson",
+    category: "sight",
+  },
+  {
+    year: 2025,
     name: "Jayasanka Ariyaratna",
     image:
       require("@/assets/bc-and-excom/excom/2025/jayasanka-ariyaratna.png") as StaticImageData,
@@ -56,12 +68,12 @@ export const members = [
   },
   {
     year: 2025,
-    name: "Sithum Sankajith",
+    name: "Navodya Hansini",
     image:
-      require("@/assets/bc-and-excom/excom/2025/sithum-sankajith.png") as StaticImageData,
+      require("@/assets/bc-and-excom/excom/2025/navodya-hansini.png") as StaticImageData,
     title: "Treasurer",
-    linkdInURL: "https://www.linkedin.com/in/sithum-sankajith",
-    facebookURL: "https://facebook.com/sithum.sankajith.1",
+    linkdInURL: "https://www.linkedin.com/in/navodya-hansini-b556b2240",
+    facebookURL: "https://web.facebook.com/profile.php?id=100078690765652",
     category: "sb",
   },
   {
@@ -488,6 +500,96 @@ export const members = [
     facebookURL:
       "https://www.facebook.com/profile.php?id=61559740304052&mibextid=ZbWKwL",
     category: "cs",
+  },
+  {
+    year: 2025,
+    name: "Avin Divakara",
+    image:
+      require("@/assets/bc-and-excom/excom/2025/avin-divakara.png") as StaticImageData,
+    title: "Vice Chairperson",
+    linkdInURL: "https://www.linkedin.com/in/avin-divakara/",
+    facebookURL: "https://www.facebook.com/avin.divakara",
+    category: "sight",
+  },
+  {
+    year: 2025,
+    name: "Sakuni Sirimanna",
+    image:
+      require("@/assets/bc-and-excom/excom/2025/sakuni-sirimanna.png") as StaticImageData,
+    title: "Secretary",
+    linkdInURL: "https://www.linkedin.com/in/sakuni-sirimanna-56a775223",
+    facebookURL: "https://www.facebook.com/share/1CnUa3Yu1B/",
+    category: "sight",
+  },
+  {
+    year: 2025,
+    name: "Sasindu Nilupul",
+    image:
+      require("@/assets/bc-and-excom/excom/2025/sasindu-nilupul.png") as StaticImageData,
+    title: "Treasurer",
+    linkdInURL: "https://www.linkedin.com/in/sasindu-abhayarathna-104a492b4",
+    facebookURL: "",
+    category: "sight",
+  },
+  {
+    year: 2025,
+    name: "Vilanya Udukumbura",
+    image:
+      require("@/assets/bc-and-excom/excom/2025/vilanya-udukumbura.png") as StaticImageData,
+    title: "Project Coordinator",
+    linkdInURL: "https://www.linkedin.com/in/vilanya-udukumbura-b82500255",
+    facebookURL: "https://www.facebook.com/share/1USkRmMUtj/?mibextid=wwXIfr",
+    category: "sight",
+  },
+  {
+    year: 2025,
+    name: "Navodhya Senali",
+    image:
+      require("@/assets/bc-and-excom/excom/2025/navodhya-senali.png") as StaticImageData,
+    title: "Media Coordinator",
+    linkdInURL: "https://www.linkedin.com/in/navodhya-senali-85a40b332/",
+    facebookURL: "",
+    category: "sight",
+  },
+  {
+    year: 2025,
+    name: "Thilarah Gunarathne",
+    image:
+      require("@/assets/bc-and-excom/excom/2025/thilarah-gunarathne.png") as StaticImageData,
+    title: "Executive Member",
+    linkdInURL: "https://www.linkedin.com/in/larah-gunarathne-6617a230a",
+    facebookURL: "",
+    category: "sight",
+  },
+  {
+    year: 2025,
+    name: "Malki Munasinghe",
+    image:
+      require("@/assets/bc-and-excom/excom/2025/malki-munasinghe.png") as StaticImageData,
+    title: "Executive Member",
+    linkdInURL: "https://www.linkedin.com/in/malki-munasinghe-732126325",
+    facebookURL: "https://www.facebook.com/share/1N59bH5TxL/",
+    category: "sight",
+  },
+  {
+    year: 2025,
+    name: "Hiruni Athukorala",
+    image:
+      require("@/assets/bc-and-excom/excom/2025/hiruni-athukorala.png") as StaticImageData,
+    title: "Executive Member",
+    linkdInURL: "https://www.linkedin.com/in/hiruni-athukorala",
+    facebookURL: "https://www.facebook.com/share/1ABbrZf6Gx/?mibextid=wwXIfr",
+    category: "sight",
+  },
+  {
+    year: 2025,
+    name: "Sineth Hasintha",
+    image:
+      require("@/assets/bc-and-excom/excom/2025/sineth-hasintha.png") as StaticImageData,
+    title: "Executive Member",
+    linkdInURL: "https://www.linkedin.com/in/sineth-hasintha-273500303",
+    facebookURL: "https://www.facebook.com/share/1Dinzs2Gu7/",
+    category: "sight",
   },
   {
     year: 2024,
