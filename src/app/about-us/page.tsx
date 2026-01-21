@@ -94,15 +94,15 @@ The IEEE Computer Society sponsors workshops and conferences, publishes a variet
           socialLinks={[
             {
               platform: "facebook",
-              link: "https://www.facebook.com/nsbmwie",
+              link: "https://www.facebook.com/people/IEEE-SIGHT-Affinity-Group-of-NSBM-Green-University/61584280137221/",
             },
             {
               platform: "linkedin",
-              link: "https://www.linkedin.com/company/ieee-women-in-engineering-nsbm/",
+              link: "https://www.linkedin.com/company/ieee-sight-affinity-group-of-nsbm-green-university/",
             },
             {
               platform: "instagram",
-              link: "https://www.instagram.com/ieeewie_nsbm",
+              link: "https://www.instagram.com/ieeesight_nsbm",
             },
           ]}
           description={`IEEE SIGHT (Special Interest Group on Humanitarian Technology) is a global community of IEEE members and volunteers dedicated to addressing humanitarian challenges through technology. The SIGHT Affinity Group of NSBM (SIGHT NSBM) is one of the student branch chapters of the global network that focuses on using technology for social good and making a positive impact on society.`}
