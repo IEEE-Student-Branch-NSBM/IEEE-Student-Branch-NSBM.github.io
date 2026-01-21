@@ -15,6 +15,8 @@ const config: Config = {
         wieDark: "#7e22ce",
         csLight: "#ffa300",
         csDark: "#f97316",
+        sightLight: "#ba0c2f",
+        sightDark: "#a50b2aff",
         grey: "#333333",
         blue: "#00629B",
       },

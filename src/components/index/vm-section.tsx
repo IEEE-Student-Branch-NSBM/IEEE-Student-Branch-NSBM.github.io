@@ -1,3 +1,4 @@
+import SightLogoImage from "@/assets/Sight logo.png";
 import IeeeCsColorBlackImage from "@/assets/ieee-cs-colored-black.png";
 import IeeeSbLogoImage from "@/assets/logo new.png";
 import WieLogoImage from "@/assets/wie-logo-bar-colored.png";
@@ -63,6 +64,9 @@ const VisionMissionSection = () => {
         </div>
         <div className="flex-1 scale-110">
           <Image src={WieLogoImage} alt="WIELogo" />
+        </div>
+        <div className="flex-1 scale-75 ml-0 md:ml-1">
+          <Image src={SightLogoImage} alt="IEEE SIGHT Logo" />
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 import ADVISOR from "@/assets/bc-and-excom/advisor-wie.webp";
 import DVC from "@/assets/bc-and-excom/dvc.png";
 import MIC_FOC from "@/assets/bc-and-excom/mic-foc.png";
+import MIC_FOCS from "@/assets/bc-and-excom/mic-focs.png";
 import Image from "next/image";
 import React from "react";
 import { Card, CardDescription, CardTitle } from "../ui/card";
@@ -33,6 +34,12 @@ const counsellors: Counsellor[] = [
     title: "Senior Lecturer at NSBM",
     position: "Advisor - IEEE of WIE Affinity Group of NSBM",
   },
+  {
+    name: "Ms. Chathurma Wijesinghe",
+    imageUrl: MIC_FOCS,
+    title: "Temporary Lecturer at NSBM",
+    position: "MIC - Faculty of Computing",
+  },
 ];
 
 const BranchCounsellors: React.FC = () => {
@@ -42,7 +49,7 @@ const BranchCounsellors: React.FC = () => {
         STUDENT BRANCH COUNSELLORS
       </h3>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 ">
         {counsellors.map((counsellor, index) => (
           <Card
             key={index}
@@ -56,7 +63,6 @@ const BranchCounsellors: React.FC = () => {
                 className=" object-cover absolute inset-0 bg-gradient-to-b from-gray-400/50 to-gray-400/90"
               />
             </div>
-
             <div className="text-center my-5 space-y-1">
               <CardTitle className="text-xl font-semibold">
                 {counsellor.name}

@@ -4,6 +4,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { AnchorHTMLAttributes } from "react";
 
+import SightWhiteImage from "@/assets/Sight logo-white.png";
 import CsLogoImage from "@/assets/ieee-cs-white-logo.png";
 import IeeeLogoWhite from "@/assets/ieee-logo-white.png";
 import IeeeSbWhiteImage from "@/assets/logo new white.png";
@@ -88,6 +89,7 @@ function LocalNav() {
     {
       "/wie": "bg-wieLight",
       "/cs": "bg-csLight",
+      "/sight": "bg-sightLight",
     }[pathname] || "bg-primaryLight";
 
   return (
@@ -122,6 +124,7 @@ function Header() {
     {
       "/wie": "bg-wieLight",
       "/cs": "bg-csLight",
+      "/sight": "bg-sightLight",
     }[pathname] || "bg-primaryLight";
 
   const getLogo = () => {
@@ -130,6 +133,8 @@ function Header() {
         return WieLogoImage;
       case "/cs":
         return CsLogoImage;
+      case "/sight":
+        return SightWhiteImage;
       default:
         return IeeeSbWhiteImage;
     }

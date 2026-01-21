@@ -27,6 +27,8 @@ function ExcomSection({
         return "from-csLight/50 to-csLight/90";
       case "wie":
         return "from-wieLight/50 to-wieLight/90";
+      case "sight":
+        return "from-sightLight/50 to-sightLight/90";
       default:
         return "from-gray-400/50 to-gray-400/90";
     }

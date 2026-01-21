@@ -55,6 +55,16 @@ export default function Excom() {
         >
           WIE AFFINITY GROUP
         </button>
+        <button
+          onClick={() => setActiveCategory("sight")}
+          className={`px-6 py-3 rounded-lg text-white md:text-2xl transition-colors ${
+            activeCategory === "sight"
+              ? "bg-sightLight hover:bg-sightLight"
+              : "bg-sightLight hover:bg-sightDark"
+          }`}
+        >
+          SIGHT AFFINITY GROUP
+        </button>
       </div>
       <Tabs
         defaultValue="2025"
