@@ -7,53 +7,9 @@ export default function joinUs() {
     <div className="container mx-auto lg:w-[1170px] px-4 md:px-0">
       {/* Section1*/}
 
-      <div className="flex flex-col lg:flex-row items-center py-8 gap-2">
-        <div className="lg:w-2/4 ">
-          <h1 className="md:text-[3.770rem] text-[2.570rem] font-bold text-center">
-            Our <span className="text-primaryLight">Vision</span>
-          </h1>
-          <p className="text-[1.163rem] text-opacity-85 mt-4  ">
-            A world in which engineers and scientists are respected for their
-            exemplary ethical behavior and the IEEE and its Ethics & Member
-            Conduct Committee are recognized as a major drive in this regard.
-          </p>
-        </div>
-
-        <div className="lg:w-2/4">
-          <Image
-            src={fullexcom}
-            width={800}
-            height={300}
-            alt="full excom image"
-          />
-        </div>
-      </div>
-
-      {/* Section1*/}
-
-      <div className="flex flex-col-reverse lg:flex-row items-center py-8 gap-2 ">
-        <div className="lg:w-2/4">
-          <Image src={subcom} width={900} height={350} alt="subcom image" />
-        </div>
-
-        <div className="lg:w-2/4 ">
-          <h1 className="md:text-[3.770rem] text-[2.570rem] font-bold text-center">
-            Our <span className="text-primaryLight">Mission</span>
-          </h1>
-          <p className="text-[1.163rem] text-opacity-85 mt-4 ">
-            The Student Chapter of IEEE NSBM advises the community on ethics
-            policy and concerns as well as fostering awareness on ethical issues
-            and promoting ethical behavior amongst individuals and organizations
-            working within the IEEE fields of interest.
-          </p>
-        </div>
-      </div>
-
-      {/* Section3*/}
-
       <div className="mt-10 flex  flex-col items-center  ">
         <h1 className="md:text-[3.270rem] text-[2.170rem] font-bold text-center ">
-          How to get a IEEE Membership
+          How to get an IEEE Membership
         </h1>
         <p className=" w-auto lg:w-[1170px] mt-6 text-center">
           Reach your full potential as part of the world’s largest technology
@@ -62,16 +18,20 @@ export default function joinUs() {
           Refer to the informational video below to get an idea. In contrast
         </p>
 
-        <a href="" className="text-primaryLight">
-          click here to download the instructional PDF
+        <a
+          href="/pdfs/ieee-membership-guide.pdf"
+          download
+          className="text-primaryLight font-semibold hover:underline"
+        >
+          Click here to download the instructional PDF
         </a>
       </div>
 
-      {/* Section4*/}
+      {/* Section2*/}
 
       <div className="mt-10 flex  flex-col items-center ">
         <h1 className="md:text-[3.270rem] text-[2.170rem] font-bold text-center ">
-          How to Join a IEEE National Level Projects
+          How to Join IEEE National Level Projects
         </h1>
         <p className=" w-auto lg:w-[1170px] mt-6 text-center">
           first you can get IEEE Membership and then you can join our national
@@ -96,12 +56,16 @@ export default function joinUs() {
           or experience give evidence of competence in an IEEE-designated field.
           Refer to the informational video below to get an idea. In contrast
         </p>
-        <a href="" className="text-primaryLight">
-          click here to download the instructional PDF
+        <a
+          href="/pdfs/ieee-membership-guide.pdf"
+          download
+          className="text-primaryLight font-semibold hover:underline"
+        >
+          Click here to download the instructional PDF
         </a>
       </div>
 
-      {/* Section5*/}
+      {/* Section3*/}
 
       <div className="py-8">
         <div className="w-full flex justify-center">
@@ -119,34 +83,34 @@ export default function joinUs() {
           </div>
         </div>
 
-        {/* Section5*/}
+        {/* Section4*/}
 
         <div className="w-full flex justify-center mt-2 ">
           <div
             className="grid grid-cols-1 md:grid-cols-3 gap-4"
             style={{ width: "100%" }}
           >
-            <div className="relative" style={{ paddingBottom: "45%" }}>
+            <div className="relative" style={{ paddingBottom: "56.25%" }}>
               <iframe
-                src="https://www.youtube.com/embed/yet_another_video_id_here"
+                src="https://www.youtube.com/embed/msCpKC7yhhU"
                 className="absolute top-0 left-0 w-full h-full"
                 frameBorder="0"
                 allow="autoplay; encrypted-media"
                 allowFullScreen
               />
             </div>
-            <div className="relative" style={{ paddingBottom: "45%" }}>
+            <div className="relative" style={{ paddingBottom: "56.25%" }}>
+              <iframe
+                src="https://www.youtube.com/embed/bFQzQ9av6eM"
+                className="absolute top-0 left-0 w-full h-full"
+                frameBorder="0"
+                allow="autoplay; encrypted-media"
+                allowFullScreen
+              />
+            </div>
+            <div className="relative" style={{ paddingBottom: "56.25%" }}>
               <iframe
                 src="https://www.youtube.com/embed/el0A0U7bJ6c"
-                className="absolute top-0 left-0 w-full h-full"
-                frameBorder="0"
-                allow="autoplay; encrypted-media"
-                allowFullScreen
-              />
-            </div>
-            <div className="relative" style={{ paddingBottom: "45%" }}>
-              <iframe
-                src="https://www.youtube.com/embed/yet_another_video_id_here"
                 className="absolute top-0 left-0 w-full h-full"
                 frameBorder="0"
                 allow="autoplay; encrypted-media"
