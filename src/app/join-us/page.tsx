@@ -1,7 +1,3 @@
-import fullexcom from "@/assets/hero-images/full-excom.jpg";
-import subcom from "@/assets/hero-images/subcom.jpg";
-import Image from "next/image";
-
 export default function joinUs() {
   return (
     <div className="container mx-auto lg:w-[1170px] px-4 md:px-0">
