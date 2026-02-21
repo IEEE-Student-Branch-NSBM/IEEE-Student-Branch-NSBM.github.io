@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
@@ -27,6 +27,12 @@ const formSchema = z.object({
 });
 
 const ContactUs = () => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<{
+    type: "success" | "error";
+    message: string;
+  } | null>(null);
+
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -37,8 +43,39 @@ const ContactUs = () => {
     },
   });
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values);
+  async function onSubmit(values: z.infer<typeof formSchema>) {
+    setIsSubmitting(true);
+    setSubmitStatus(null);
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(values),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || "Something went wrong.");
+      }
+
+      setSubmitStatus({
+        type: "success",
+        message: "Your message has been sent successfully!",
+      });
+      form.reset();
+    } catch (error) {
+      setSubmitStatus({
+        type: "error",
+        message:
+          error instanceof Error
+            ? error.message
+            : "Failed to send message. Please try again.",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   }
 
   return (
@@ -111,11 +148,24 @@ const ContactUs = () => {
                     </FormItem>
                   )}
                 />
+                {submitStatus && (
+                  <div
+                    className={`p-3 rounded text-sm ${
+                      submitStatus.type === "success"
+                        ? "bg-green-100 text-green-800 border border-green-300"
+                        : "bg-red-100 text-red-800 border border-red-300"
+                    }`}
+                  >
+                    {submitStatus.message}
+                  </div>
+                )}
+
                 <Button
-                  className="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors  "
+                  className="mt-4 px-4 py-2 bg-blue text-white rounded hover:bg-primaryDark transition-colors disabled:opacity-50"
                   type="submit"
+                  disabled={isSubmitting}
                 >
-                  SEND MESSAGE
+                  {isSubmitting ? "SENDING..." : "SEND MESSAGE"}
                 </Button>
               </form>
             </Form>
