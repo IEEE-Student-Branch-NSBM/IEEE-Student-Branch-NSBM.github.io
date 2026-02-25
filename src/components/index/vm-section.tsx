@@ -16,10 +16,10 @@ import { TbTargetArrow } from "react-icons/tb";
 const VisionMissionSection = () => {
   return (
     <div className="container mx-auto max-w-[1170px] flex flex-col justify-center items-center px-5 xl:px-0">
-      <div className="sm:max-w-[1170px] flex flex-col sm:flex-row justify-center gap-5 ">
+      <div className="sm:max-w-[1170px] flex flex-col sm:flex-row justify-center gap-16 ">
         <Card className="shadow-lg flex-1 ">
           <CardHeader>
-            <CardTitle className="flex items-center gap-3 text-lg font-bold">
+            <CardTitle className="flex items-center gap-3 font-bold text-2xl">
               <TbTargetArrow size={35} />
 
               <div>
@@ -27,7 +27,7 @@ const VisionMissionSection = () => {
               </div>
             </CardTitle>
 
-            <CardDescription className="text-sm text-slate-700">
+            <CardDescription className="text-lg text-slate-700">
               The IEEE Student Branch of NSBM advises the community on ethics
               policy and concerns as well as fostering awareness on ethical
               issues and promoting ethical behaviour amongst individuals and
@@ -38,7 +38,7 @@ const VisionMissionSection = () => {
 
         <Card className="shadow-lg flex-1 ">
           <CardHeader>
-            <CardTitle className="flex items-center gap-3 text-lg font-bold">
+            <CardTitle className="flex items-center gap-3 text-2xl font-bold">
               <FaEye size={35} />
 
               <div>
@@ -46,7 +46,7 @@ const VisionMissionSection = () => {
               </div>
             </CardTitle>
 
-            <CardDescription className="text-sm text-slate-700">
+            <CardDescription className="text-lg text-slate-700">
               A world in which engineers and scientists are respected for their
               exemplary ethical behaviour and the IEEE and its Ethics & Member
               Conduct Committee are recognized as a major drive in this regard.
@@ -55,7 +55,7 @@ const VisionMissionSection = () => {
         </Card>
       </div>
 
-      <div className="sm:max-w-[1170px] flex flex-col px-5 pt-12 sm:flex-row justify-center items-center gap-5">
+      <div className="sm:max-w-[1170px] flex flex-col px-2 pt-20 sm:flex-row justify-center items-center gap-16">
         <div className="flex-1 scale-110">
           <Image src={IeeeSbLogoImage} alt="SBLogo" />
         </div>
