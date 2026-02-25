@@ -8,7 +8,7 @@ import ShapeFuture from "@/components/index/shape-future";
 export default function About() {
   return (
     <div className="flex flex-col gap-8 my-8 w-full">
-      <div className="w-full">
+      <div className="w-full ">
         <AboutSection
           firstTitle="IEEE"
           secondTitle="NSBM"
@@ -32,7 +32,8 @@ export default function About() {
 As part of IEEE’s extensive network, the IEEE Student Branch of NSBM connects students to valuable resources, including workshops, conferences, and networking opportunities. We aim to support students in developing their leadership skills, advancing technology, and making meaningful contributions to their communities.`}
         />
       </div>
-      <div className="w-full">
+
+      <div className="w-full ">
         <AboutSection
           firstTitle="WIE"
           secondTitle="Affinity Group"
@@ -55,13 +56,14 @@ As part of IEEE’s extensive network, the IEEE Student Branch of NSBM connects 
             },
           ]}
           description={`IEEE Women in Engineering (WIE) is a global platform of IEEE members and volunteers dedicated to advancing women engineers and scientists and empowering young girls throughout the world to pursue academic interests in engineering and scientific professions. 
-            Women in Engineering Affinity Group of NSBM (WIE NSBM) is one of the student branch chapters of the global network which uplifts the women in leadership roles in industry as well as international platforms.`}
+Women in Engineering Affinity Group of NSBM (WIE NSBM) is one of the student branch chapters of the global network which uplifts the women in leadership roles in industry as well as international platforms.`}
         />
       </div>
+
       <div className="w-full">
         <AboutSection
           firstTitle="COMPUTER SOCIETY"
-          secondTitle="NSBM"
+          secondTitle="Chapter"
           firstTitleColor="#ffa300"
           subtitle="COMPUTER SOCIETY STUDENT BRANCH CHAPTER OF NSBM"
           imageSrc={CSLogo}
@@ -83,6 +85,7 @@ As part of IEEE’s extensive network, the IEEE Student Branch of NSBM connects 
 The IEEE Computer Society sponsors workshops and conferences, publishes a variety of peer-reviewed literature, operates technical committees, and develops IEEE computing standards. It supports more than 200 chapters worldwide and participates in educational activities at all levels of the profession, including distance learning, accreditation of higher education programs in computer science, and professional certification in software engineering.`}
         />
       </div>
+
       <div className="w-full">
         <AboutSection
           firstTitle="SIGHT"
@@ -108,6 +111,7 @@ The IEEE Computer Society sponsors workshops and conferences, publishes a variet
           description={`IEEE SIGHT (Special Interest Group on Humanitarian Technology) is a global community of IEEE members and volunteers dedicated to addressing humanitarian challenges through technology. The SIGHT Affinity Group of NSBM (SIGHT NSBM) is one of the student branch chapters of the global network that focuses on using technology for social good and making a positive impact on society.`}
         />
       </div>
+
       <ShapeFuture />
     </div>
   );

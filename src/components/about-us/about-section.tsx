@@ -46,13 +46,13 @@ function AboutSection({
 
   return (
     <div className="flex flex-col m-auto w-full max-w-[1170px] px-4 mb-8 md:px-4 lg:px-0">
-      <p className="text-6xl mb-4 w-full text-center font-bold">
+      <p className="text-6xl mb-6 w-full text-center font-bold">
         <span style={{ color: firstTitleColor }}>{firstTitle}</span>{" "}
         <span style={{ color: secondTitleColor }}>{secondTitle}</span>
       </p>
       <div className="flex flex-col m-auto w-full md:flex-row">
         {imagePosition === "left" && (
-          <div className="order-last md:order-first relative w-full md:w-1/4 min-h-[200px] md:mr-4">
+          <div className="order-last md:order-first relative w-full md:w-1/4 min-h-[150px] md:mr-4">
             <Image
               src={imageSrc}
               alt="about section image"
@@ -62,14 +62,14 @@ function AboutSection({
             />
           </div>
         )}
-        <div className="md:w-3/4">
+        <div className="md:w-3/4 p-6">
           <p className="md:text-justify text-center text-2xl mb-6 font-medium text-gray-600x">
             {subtitle}
           </p>
           <p className="text-lg font-normal  md:text-justify">{description}</p>
         </div>
         {imagePosition === "right" && (
-          <div className="order-last relative w-full md:w-1/4 min-h-[200px] md:ml-4">
+          <div className="order-last relative w-full md:w-1/4 min-h-[150px]  md:ml-4">
             <Image
               src={imageSrc}
               alt="about section image"
